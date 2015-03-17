@@ -15,9 +15,6 @@
         "angularoute" : "../scripts/angular/angular-route",
         "config"       : "../scripts/modules/config",
         "container" : "../scripts/modules/container",
-        //"contactform" : "../scripts/Service/contactform",
-        //the core controllers,
-        //"contactCtrl" : "../scripts/controllers/contactCtrl",
         "core" : "../scripts/controllers/core"
     },
     shim    : {
@@ -45,6 +42,7 @@
     }
      
  });
- require(["core"],function(){
-    angular.bootstrap(document, ["jkula"]); 
+ 
+ require(["angular","core"],function(){
+    angular.bootstrap(document, ['jkula']); 
  });
