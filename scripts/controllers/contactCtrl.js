@@ -4,14 +4,13 @@
  * and open the template in the editor.
  */
 
-define([],
-     function contactCtrl(){
-      var that = this;
-      
-      that.submitting = function(){
-          console.log("sent");
-      };
-    return submitting();
+define(["angular"],
+     function (angular){
      
-    
+    angular.module('contact',[])
+            .controller('contactCtrl',function(){
+               this.submit = function(){
+                   console.log("sending");
+               }; 
+            });
 });
