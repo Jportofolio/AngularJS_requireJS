@@ -14,8 +14,7 @@ define(['container',
             ['ngRoute']);
             jkula.config(config);  
             jkula.controller('contactCtrl',contactCtrl);
-          
-           jkula.controller('homePageCtrl',function(){
+            jkula.controller('homePageCtrl',function(){
                      var hom = this;
                      hom.name ="J_kula";
                  });

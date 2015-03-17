@@ -20,7 +20,8 @@ define([],function(){
             }).
             when('/contact',{
                 templateUrl: 'wpages/contact.html',
-                controller:'contactCtrl'
+                controller:'contactCtrl',
+                controllerAs: 'c'
             }).
             otherwise({
                 redirectTo:'/home'
