@@ -78,8 +78,11 @@ input[type="email"],textarea:focus{
     box-sizing: border-box; 
     resize:none;
 }
+#cWrapper .container .setholer form input[type="submit"]:focus{
+    outline:none;
+}
 #cWrapper .container .setholer form input[type="submit"]:hover{
-    background-color: #00cc33; 
+    background-color: #29ABE2;
     text-shadow: 2px 2px 0px #999999;
 }
 #cWrapper .container .setholer form input[type="submit"]{
@@ -100,7 +103,7 @@ input[type="email"],textarea:focus{
     transition-timing-function: ease;
     //font-size: 70%;
     margin-top:4px;
-    background: #29ABE2;
+    background: #9999ff;
     color: #fff;
 }
 #cWrapper .container .setholer form input[type="submit"]:disabled{
