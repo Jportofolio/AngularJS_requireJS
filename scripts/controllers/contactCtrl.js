@@ -4,14 +4,14 @@
  * and open the template in the editor.
  */
 
-define([],function(){
+define([],
+     function contactCtrl(){
+      var that = this;
+      
+      that.submitting = function(){
+          console.log("sent");
+      };
+    return submitting();
+     
     
-    function contactCtrl(){
-        
-        this.submit = function(){
-             console.log("Sending");
-        };
-          }
-    
-    return contactCtrl;
 });
