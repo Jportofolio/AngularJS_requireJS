@@ -1,0 +1,156 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 4, 2015, 1:44:15 PM
+    Author     : J_kula
+*/
+
+@font-face{
+    font-family: Myriad pro;
+    src: url('fonts/Myriadpro.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: vrinda;
+    src: url('fonts/Vrinda.ttf') format('truetype');
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    padding:0;
+    margin: 0;
+}
+#bnavi{
+    width:100%; 
+    height: 40px;
+    z-index: 50; position: absolute; top:211px; left: 0;
+   border-top: 3px solid #2094CE;
+    background-color:#333333;
+}
+#bnavi nav{margin:0px auto; width: 960px;}
+#bnavi ul{padding:0; margin: 0; line-height:40px;}
+#bnavi ul li{
+        position:relative; list-style: none;
+        line-height:40px; display: block;
+        float:left;
+      }
+//#bnavi ul li:first-child{ list-style-image: url(../wImages/0-saboutme.png);}
+#bnavi ul li a{ height: 40px;  
+         display: block; 
+         width: 150px; 
+         font-family:'Myriadpro',Arial;
+         font-size: 14px;
+         text-decoration: none; 
+         color: #ccc; }
+#bnavi ul li a:hover{ color: #29ABE2; 
+                   }
+#bnavi ul li a >img{
+              float:left; 
+             line-height: 40px; 
+             margin-top: 6px;
+             margin-right: 11px;}
+/* Style sheet for the header*/
+
+header{display:block;
+    width:100%; background-color:#2E2D3F;
+    color: white;
+    height:auto; }
+header #smHeader{
+    width:100%; 
+    height: 40px;
+    background-color: #333333;
+    
+}    
+/* The Header Social MEDIA*/
+
+#smHeader .socialm{
+    margin:0px auto;
+    z-index: 20; text-align: right;
+    width: 960px; line-height: 44px;
+  
+    //border-bottom: 3px solid #2094CE;
+    
+}
+#smHeader .socialm .github{
+    width: 470px; 
+    display:inline;line-height: 40px;
+    margin-top: 4px;
+    float:left; 
+    text-align:left;
+   
+}
+#smHeader .socialm .github p{ font-family: courier new;}
+#smHeader .socialm .github img{ float: left; margin-right: 20px; cursor: pointer;}
+
+#smHeader .socialm .others{ 
+        width: 470px; 
+        display: inline; 
+        line-height: 40px;
+       
+    
+}
+#smHeader .socialm .others >img{margin:3px; cursor: pointer;}
+header #squareback{
+    height: 209px;
+    background: url("../wImages/bluesquare.png") no-repeat;
+    background-position:left;
+    width:100%;
+}
+
+#squareback .mdetails{
+    width: 960px;
+    height:209px;
+    margin:0px auto; 
+    
+ 
+}
+#squareback .mdetails > .mimage,.mprof{
+    display: inline-table;
+    float: right; 
+    height: 157px;
+    
+   
+   
+}
+.mdetails > .mimage{
+        padding-top:17px;
+        width: 140px;
+      
+} 
+.mdetails > .mimage img{ float:right; cursor: pointer;}
+.mdetails > .mprof{ 
+    padding-top:52px;
+    width:200px;
+    padding-right: 12px;
+    text-align: right;
+   
+   
+    
+}
+.mdetails > .mprof p{ padding-right: 10px; border-right: 4px solid #29ABE2; }
+.mdetails > .mprof p:first-child{
+    color: #29ABE2;
+    font-family: 'Josefine',Arial;
+    font-size: 21px;
+}
+.mdetails > .mprof p:nth-child(2){
+    color:#666666;
+    font-family:'centabel',sans-serif;
+    font-size: 18px;
+    
+}
+.mdetails > .mprof p:last-child{
+    color:#DDDDDD;
+    font-family: 'Myriadpro',vernada;
+    font-size: 15px;
+}
+// This is the bottom Navigation

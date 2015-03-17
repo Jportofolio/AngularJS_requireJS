@@ -1,0 +1,36 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 18, 2015, 7:02:56 PM
+    Author     : J_kula
+*/
+/** This is Variables **/
+/*Mixing Goes here*/
+.desciptHeight {
+  height: 400px;
+  width: 490px;
+  border: 1px solid #2E2D3F;
+}
+/*-------*/
+#abtwrapper {
+  height: 500px;
+  background-color: #DDDDDD;
+}
+#abtwrapper .jdescritp {
+  margin: 0 auto;
+  width: 1000px;
+  display: block;
+  border: 1px solid #666666;
+}
+#abtwrapper .jdescritp .leftdescript {
+  float: left;
+  height: 400px;
+  width: 490px;
+  border: 1px solid #2E2D3F;
+}
+#abtwrapper .jdescritp .righdecript {
+  float: right;
+}

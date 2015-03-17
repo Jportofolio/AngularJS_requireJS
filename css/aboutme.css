@@ -1,0 +1,77 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 18, 2015, 7:02:56 PM
+    Author     : J_kula
+*/
+/** This is Variables **/
+/*Mixing Goes here*/
+
+.desciptHeight {
+// 
+  height: 400px;
+  width: 490px;
+  //border: 1px solid #2E2D3F;
+}
+/*-------*/
+#abtwrapper {
+  height: 350px;
+  padding-top:30px;
+ padding-bottom:10px;
+  //border: 2px solid #ccc;
+}
+#abtwrapper .jdescritp {
+  margin: 0 auto;
+  width: 960px;
+  display: block;
+}
+#abtwrapper .jdescritp .leftdescript {
+  float: left;
+  height: 320px; text-align: center;
+  width: 150px;
+  
+  //border: 1px solid #2E2D3F;
+}
+#abtwrapper .jdescritp .leftdescript img{
+    margin-top:15px;
+}
+#abtwrapper .jdescritp .leftdescript p.name{
+    font-family: 'Vrinda', Arial;
+    font-size: 15px;
+    font-weight: 600;
+    color: #333333;
+}
+#abtwrapper .jdescritp .leftdescript p > b{
+    margin-top: 0px;
+    color: #2094CE; 
+    font-family: 'Vrinda', arial;
+    font-size: 14px;
+}
+#abtwrapper .jdescritp .righdecript {
+  float: right;
+  height: 310px;
+  width: 750px;
+  border-left: 4px solid #808080;
+  padding-left: 17px; padding-right: 6px;
+  padding-top: 17px;
+  
+}
+
+#abtwrapper .jdescritp .righdecript p{
+    font-family: 'Shruti',Arial;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    color: #808080;
+}
+@font-face{
+    font-family: Shruti;
+    src:url(fonts/Shruti.ttf);
+}
+@font-face{
+    font-family: vrinda;
+    src: url(fonts/Vrinda.ttf);
+}

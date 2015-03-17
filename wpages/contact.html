@@ -1,0 +1,89 @@
+
+        <div id="cWrapper">
+            <div class="container">
+                <div class="setholer" ng-controller="contactMeCtrl as c">
+                  
+                    <form method="post" name="kcontact" id="contactk" novalidate>
+                        <dl>
+                            <dt>Email Address</dt>
+                            
+                            <dd>
+                                <input type="email" 
+                                       name="email" 
+                                       id="email" 
+                                       ng-model="c.email" 
+                                       size="25"
+                                       required>
+                                <span ng-show="{{c.mail}}.$dirty && {{c.mail}}.$required"><sup>*</sup></span>
+                                
+                            </dd>
+                            <dt>First Name</dt>
+                            <dd><input 
+                                    type="text" 
+                                    name="fname" 
+                                    id="fname" 
+                                    ng-model="c.fname" 
+                                    size="23" 
+                                     ng-maxlength="20"
+                                    ng-minlength="4" required>
+                              <span ng-show="{{c.fn}}.$dirty && {{c.fn}}.$error.maxlength">Too long</span>
+                                <span ng-show="{{c.fn}}.$dirty && {{c.fn}}.$error.minlength">Too short</span>
+                            </dd>
+                            <dt>Last Name</dt>
+                            <dd><input 
+                                    type="text" 
+                                    name="lname" 
+                                    id="lname" 
+                                    size="25" 
+                                    ng-model="c.lname"
+                                    ng-maxlength="23"
+                                    ng-minlength="4" required>
+                                <span ng-show="{{c.ln}}.$dirty && {{c.ln}}.$error.maxlength">Too Long</span>
+                                <span ng-show="{{c.ln}}.$dirty && {{c.ln}}.$error.minlength">Too short</span>
+                            </dd>
+                            <dt>Title</dt>
+                            <dd>
+                                <input 
+                                    type="text" 
+                                    name="title" 
+                                    id="title" 
+                                    size="25" 
+                                    ng-model="c.title"
+                                    ng-pattern="/a*/"
+                                    ng-maxlength="23"
+                                    ng-minlength="4" required>
+                                <span ng-show="{{c.tit}}.$dirty && {{c.tit}}.$error.maxlength">Too Long</span>
+                                <span ng-show="{{c.tit}}.$dirty && {{c.tit}}.$error.minlength">Too short</span>
+                                
+                            </dd>
+                            <dt>Organization</dt>
+                            <dd><input type="text" 
+                                       name="organiz" 
+                                       id="organiz" 
+                                       size="23" 
+                                       ng-model="c.org"
+                                       ng-maxlength="23" 
+                                       ng-minlength="4" required>
+                                <span ng-show="{{c.orgz}}.$dirty && {{c.orgz}}.$error.maxlength">Too Long</span>
+                                <span ng-show="{{c.orgz}}.$dirty && {{c.orgz}}.$error.minlength">Too short</span>
+                            </dd>
+                            <dt>Comments</dt>
+                            <dd><textarea cols="50" 
+                                          name="comment" 
+                                          rows="5" 
+                                          ng-model="c.cmt"
+                                          wrap="hard" 
+                                          required></textarea></dd>
+                            <dd>
+                                <p>
+                                    <button ng-disabled="kcontact.$invalid" ng-click="c.submit()">Submit</button>
+                                 <button>Cancel</button>
+                                </p> 
+                            </dd>
+                        </dl> 
+                   </form>
+                    
+                </div>
+            </div>
+        </div>
+
