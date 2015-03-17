@@ -11,8 +11,8 @@ define([],function(){
          function config($routeProvider){
              $routeProvider.
             when('/home',{
-                templateUrl:'wpages/entree.html'
-                //controller:'homePageCtrl'
+                templateUrl:'wpages/entree.html',
+                controller:'homePageCtrl'
            }).
             when('/aboutme',{
                 templateUrl: 'wpages/aboutme.html'

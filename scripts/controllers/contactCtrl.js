@@ -8,7 +8,9 @@ define([],function(){
     
     function contactCtrl(){
         
-        console.log("hallo");
+        this.submit = function(){
+             console.log("Sending");
+        };
           }
     
     return contactCtrl;

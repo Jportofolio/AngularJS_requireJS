@@ -19,37 +19,40 @@ and open the template in the editor.
 }
 
 #cWrapper .container{
-    padding-top:7px;
     margin:0 auto;
-    width:960px;
-    
-    height: 514px; display: block;
+    width:960px; vertical-align: middle;
+    height: 514px; 
 }
 #cWrapper .container .setholer{
     border-radius:7px;
+    padding: 0;
+    margin-top: 14px;
     -webkit-border-radius: 7px;
     -moz-border-radius: 7px;
     //border:1px solid #DDDDDD;
-    width:500px;
-    height: 510px;
-    margin-right:10px;
-    margin-top:10px;
+    box-sizing: border-box;
+    width:50%;
+    height:100%;
     float:right;
     background-color: #ffffff;
 }
 #cWrapper .container .setholer form{
-    
-    margin-left: 20px;
-    margin-top:20px;
+    display:block;
+    height:510px;
+    box-sizing: border-box;
+    padding-left:1.0em;
+    padding-top:1.0em;
+   
 }
 #cWrapper .container .setholer form dl dt{
     font-family: 'Shruti',arial;
-    font-size: 14px;
-    margin-bottom: 5px;
+    font-size: 0.9em
 }
-#cWrapper .container .setholer form input[type="text"],input[type="email"]:focus{
+#cWrapper .container .setholer form input[type="text"],
+input[type="email"],textarea:focus{
      -webkit-appearance: none;
-    -moz-appearance: normal;
+     outline:none;
+  
 }
 #cWrapper .container .setholer form input[type="text"],input[type="email"]{
     line-height: 28px;
@@ -62,18 +65,18 @@ and open the template in the editor.
 }
 ::-moz-focus-inner {
     border: 0;
+    outline: none; 
     padding: 0;
 }
 
 #cWrapper .container .setholer form textarea{
-    -webkit-appearance: none;
-    -moz-appearance: normal;
-    font-family: Arial; resize:none;
+    font-family: Arial;
      border-radius: 4px;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
-    padding-left: 3px;
-    padding-top: 3px;
+    padding: 3px;
+    box-sizing: border-box; 
+    resize:none;
 }
 #cWrapper .container .setholer form input[type="submit"]{
     line-height: 30px; display:inline-block;
@@ -92,7 +95,37 @@ and open the template in the editor.
 }
 #cWrapper .container .setholer form input[type="submit"]:disabled{
      background: #999999; color:white;
+     -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
      cursor: default;
+}
+#cWrapper .container .setholer form button:disabled{
+    background: #999999; color:white;
+    transition: none;
+}
+#cWrapper .container .setholer form button{
+    line-height: 30px;
+    cursor:pointer;
+    border-style: none;
+    width: 90px;
+    font-size: 80%;
+    color: #ffffff;
+    background-color: #666666;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-transition: background-color 0.5s ease;
+    transition: background-color 0.5s ease;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+   
+}
+#cWrapper .container .setholer form button:focus{
+    outline: none;
+    border:none;
+}
+#cWrapper .container .setholer form button:active{
+     background-color: #2094CE;
 }
 #cWrapper .container .setholer form button:active{
     background: #2094CE; color:#ffffff;

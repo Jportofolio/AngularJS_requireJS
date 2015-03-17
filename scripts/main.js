@@ -6,7 +6,7 @@
 
  require.config({
     appDir : '',
-    baseUrl : './scripts',
+    //baseUrl : './scripts',
     
     //Defining paths
     paths  : {
@@ -37,11 +37,11 @@
         },
         "config" : {
             deps : ['angular','angularoute']
-        }
+        },
         
-        /*"contactCtrl" : {
-            deps : ['contactform']
-        }*/
+        "contactCtrl" : {
+            deps : ['angular','config','container']
+        }
     }
      
  });

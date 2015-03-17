@@ -1,7 +1,6 @@
  <div id="cWrapper">
             <div class="container">
                 <div class="setholer" ng-controller="contactCtrl as c">
-                  
                     <form method="post" ng-submit="c.submit()" name="kcontact" id="contactk" novalidate>
                         <dl>
                             <dt>Email Address</dt>
@@ -72,11 +71,13 @@
                                           rows="5" 
                                           ng-model="tokens.comment"
                                           wrap="hard" 
-                                          required></textarea></dd>
+                                          required>
+                                              
+                                </textarea></dd>
                             <dd>
                                 <p>
                                    <input type="submit" ng-disabled="kcontact.$invalid" value="submit">
-                                   <input type="reset" value="Cancel">
+                                   <button ng-disabled="kcontact.$invalid">Cancel</button>
                                 </p> 
                             </dd>
                         </dl> 
