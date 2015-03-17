@@ -1,9 +1,8 @@
-
-        <div id="cWrapper">
+ <div id="cWrapper">
             <div class="container">
-                <div class="setholer" ng-controller="contactMeCtrl as c">
+                <div class="setholer" ng-controller="contactCtrl as c">
                   
-                    <form method="post" name="kcontact" id="contactk" novalidate>
+                    <form method="post" ng-submit="c.submit()" name="kcontact" id="contactk" novalidate>
                         <dl>
                             <dt>Email Address</dt>
                             
@@ -11,10 +10,10 @@
                                 <input type="email" 
                                        name="email" 
                                        id="email" 
-                                       ng-model="c.email" 
+                                       ng-model="tokens.mail" 
                                        size="25"
                                        required>
-                                <span ng-show="{{c.mail}}.$dirty && {{c.mail}}.$required"><sup>*</sup></span>
+                                <span ng-show="kcontact.email.$dirty && kcontact.fname.$required"><sup>*</sup></span>
                                 
                             </dd>
                             <dt>First Name</dt>
@@ -22,12 +21,12 @@
                                     type="text" 
                                     name="fname" 
                                     id="fname" 
-                                    ng-model="c.fname" 
+                                    ng-model="tokens.fname" 
                                     size="23" 
                                      ng-maxlength="20"
                                     ng-minlength="4" required>
-                              <span ng-show="{{c.fn}}.$dirty && {{c.fn}}.$error.maxlength">Too long</span>
-                                <span ng-show="{{c.fn}}.$dirty && {{c.fn}}.$error.minlength">Too short</span>
+                              <span ng-show="kcontact.fname.$dirty && kcontact.fname.$error.maxlength">Too long</span>
+                                <span ng-show="kcontact.fname.$dirty && kcontact.fname.$error.minlength">Too short</span>
                             </dd>
                             <dt>Last Name</dt>
                             <dd><input 
@@ -35,11 +34,11 @@
                                     name="lname" 
                                     id="lname" 
                                     size="25" 
-                                    ng-model="c.lname"
+                                    ng-model="tokens.lname"
                                     ng-maxlength="23"
                                     ng-minlength="4" required>
-                                <span ng-show="{{c.ln}}.$dirty && {{c.ln}}.$error.maxlength">Too Long</span>
-                                <span ng-show="{{c.ln}}.$dirty && {{c.ln}}.$error.minlength">Too short</span>
+                                <span ng-show="kcontact.lname.$dirty && kcontact.lname.$error.maxlength">Too Long</span>
+                                <span ng-show="kcontact.lname.$dirty && kcontact.lname.$error.minlength">Too short</span>
                             </dd>
                             <dt>Title</dt>
                             <dd>
@@ -48,12 +47,12 @@
                                     name="title" 
                                     id="title" 
                                     size="25" 
-                                    ng-model="c.title"
+                                    ng-model="tokens.title"
                                     ng-pattern="/a*/"
                                     ng-maxlength="23"
                                     ng-minlength="4" required>
-                                <span ng-show="{{c.tit}}.$dirty && {{c.tit}}.$error.maxlength">Too Long</span>
-                                <span ng-show="{{c.tit}}.$dirty && {{c.tit}}.$error.minlength">Too short</span>
+                                <span ng-show="kcontact.title.$dirty && kcontact.title.$error.maxlength">Too Long</span>
+                                <span ng-show="kcontact.title.$dirty && kcontact.title.$error.minlength">Too short</span>
                                 
                             </dd>
                             <dt>Organization</dt>
@@ -61,22 +60,22 @@
                                        name="organiz" 
                                        id="organiz" 
                                        size="23" 
-                                       ng-model="c.org"
+                                       ng-model="tokens.organiz"
                                        ng-maxlength="23" 
                                        ng-minlength="4" required>
-                                <span ng-show="{{c.orgz}}.$dirty && {{c.orgz}}.$error.maxlength">Too Long</span>
-                                <span ng-show="{{c.orgz}}.$dirty && {{c.orgz}}.$error.minlength">Too short</span>
+                                <span ng-show="kcontact.organiz.$dirty && kcontact.organiz.$error.maxlength">Too Long</span>
+                                <span ng-show="kcontact.organiz.$dirty && kcontact.organiz.$error.minlength">Too short</span>
                             </dd>
                             <dt>Comments</dt>
                             <dd><textarea cols="50" 
                                           name="comment" 
                                           rows="5" 
-                                          ng-model="c.cmt"
+                                          ng-model="tokens.comment"
                                           wrap="hard" 
                                           required></textarea></dd>
                             <dd>
                                 <p>
-                                    <button ng-disabled="kcontact.$invalid" ng-click="c.submit()">Submit</button>
+                                   <input type="submit" ng-disabled="kcontact.$invalid" value="submit">
                                  <button>Cancel</button>
                                 </p> 
                             </dd>
@@ -87,3 +86,5 @@
             </div>
         </div>
 
+
+       

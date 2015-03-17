@@ -3,17 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-define(["angular","container","config"],
+define(["container","config"],
 
   function(container,config){
    var jkula = angular.module('jkula',
             ['ngRoute']);
-            jkula.config(config);
-            jkula.directive('wrapper',container);
-            jkula.controller('contactMeCtrl', function(){
-                         this.submit = function(){      
-                         };
-                
+            jkula.config(config);  
+            jkula.controller('contactCtrl', function(){
                });
           
            jkula.controller('homePageCtrl',function(){
@@ -24,7 +20,10 @@ define(["angular","container","config"],
                      var abt = this;
                     abt.hist ='hist';
                  });
-                  
+            jkula.directive('wrapper',container);
+                   
+                      
+            
 });
         
 
