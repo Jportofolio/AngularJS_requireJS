@@ -9,7 +9,7 @@ define([],function(){
     function contactCtrl(){
         
         console.log("hallo");
-                 }
+          }
     
     return contactCtrl;
 });

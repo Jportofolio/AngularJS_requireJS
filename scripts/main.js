@@ -6,7 +6,7 @@
 
  require.config({
     appDir : '',
-    //baseUrl : './scripts',
+    baseUrl : './scripts',
     
     //Defining paths
     paths  : {
@@ -15,6 +15,9 @@
         "angularoute" : "../scripts/angular/angular-route",
         "config"       : "../scripts/modules/config",
         "container" : "../scripts/modules/container",
+        //controllers
+        "homeCtrl" : "../scripts/controllers/homeCtrl",
+        "contactCtrl" : "../scripts/controllers/contactCtrl",
         "core" : "../scripts/controllers/core"
     },
     shim    : {
