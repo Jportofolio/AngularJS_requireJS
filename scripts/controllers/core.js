@@ -8,6 +8,7 @@ define(["angular","container","config"],
   function(container,config){
    var jkula = angular.module('jkula',
             ['ngRoute']);
+            jkula.config(config);
             jkula.directive('wrapper',container);
             jkula.controller('contactMeCtrl', function(){
                          this.submit = function(){      
