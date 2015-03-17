@@ -75,7 +75,7 @@ and open the template in the editor.
     padding-left: 3px;
     padding-top: 3px;
 }
-#cWrapper .container .setholer form button{
+#cWrapper .container .setholer form input[type="submit"]{
     line-height: 30px; display:inline-block;
     text-decoration: none; border-style: none;
     cursor:pointer;
@@ -90,7 +90,7 @@ and open the template in the editor.
     background: #29ABE2;
     color: #fff;
 }
-#cWrapper .container .setholer form button:disabled{
+#cWrapper .container .setholer form input[type="submit"]:disabled{
      background: #999999; color:white;
      cursor: default;
 }
