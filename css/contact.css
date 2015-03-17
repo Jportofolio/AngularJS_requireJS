@@ -78,23 +78,34 @@ input[type="email"],textarea:focus{
     box-sizing: border-box; 
     resize:none;
 }
+#cWrapper .container .setholer form input[type="submit"]:hover{
+    background-color: #00cc33; 
+    text-shadow: 2px 2px 0px #999999;
+}
 #cWrapper .container .setholer form input[type="submit"]{
     line-height: 30px; display:inline-block;
     text-decoration: none; border-style: none;
     cursor:pointer;
     width:90px; text-align: center;
+    border-radius: 3px;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     font-family: 'Arial', sans-serif;
     font-size: 80%;
+    //Transition on hover
+    -webkit-transition: background-color 0.5s ease;
+    transition: background-color 0.5s ease;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
     //font-size: 70%;
     margin-top:4px;
-    
     background: #29ABE2;
     color: #fff;
 }
 #cWrapper .container .setholer form input[type="submit"]:disabled{
      background: #999999; color:white;
+     border-radius: 3px;
      -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
      cursor: default;
@@ -111,6 +122,7 @@ input[type="email"],textarea:focus{
     font-size: 80%;
     color: #ffffff;
     background-color: #666666;
+    border-radius: 3px;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     -webkit-transition: background-color 0.5s ease;
@@ -124,8 +136,8 @@ input[type="email"],textarea:focus{
     outline: none;
     border:none;
 }
-#cWrapper .container .setholer form button:active{
-     background-color: #2094CE;
+#cWrapper .container .setholer form button:hover{
+     background-color:crimson;
 }
 #cWrapper .container .setholer form button:active{
     background: #2094CE; color:#ffffff;
