@@ -1,6 +1,9 @@
  <div id="cWrapper">
             <div class="container">
                 <div class="setholer" ng-controller="contactCtrl as c">
+                    <div class="notify" ng-show="c.msgsent">
+                        Message has been sent !!
+                    </div>
                     <form method="post" ng-submit="c.submit()" name="kcontact" id="contactk" novalidate>
                         <dl>
                             <dt>Email Address</dt>

@@ -10,6 +10,7 @@
     function(){
         
            function contactCtrl($scope,$q,$http,$rootScope){
+               $scope.msgsent = false;
                $scope.tokens = {
                     mail: '',
                     fname : '',
@@ -32,7 +33,7 @@
                 this.submit = function(){
                    var promise = this.sending();
                    promise.then(function(){
-                       $scope.tokens = {};
+                       $scope.msgsent = true;
                        console.log("Message has been sent");
                    },function(){
                        console.log("failed");

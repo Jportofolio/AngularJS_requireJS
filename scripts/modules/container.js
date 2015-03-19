@@ -6,20 +6,17 @@
 
 
 define([],function(){
-    function container(){
+    return function container(){
         //wrapper = {};
         return {
-            scope : {},
+            scope :true,
             restrict:'E',
-            transclude : true,
-            //scope:{},
             link:function(s,e,a){
                //angular.element(e).fadeIn(300);
                
             },
-            //replace:true,
-            template:'<div ng-view="" id="bicong"></div>'
+            template:'<div ng-view="" id="bicong"> Loading...</div>'
         };
-    }
- return container;
+    };
+ 
 });

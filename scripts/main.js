@@ -11,7 +11,7 @@
     //Defining paths
     paths  : {
         "jquery" : "../scripts/jquery/jquery",
-        "angular" : "../scripts/angular/angular",
+        "angular" : "../scripts/angular/angular.min",
         "angularoute" : "../scripts/angular/angular-route",
         "config"       : "../scripts/modules/config",
         "container" : "../scripts/modules/container",
@@ -32,7 +32,7 @@
             deps : ['angular']
         },
         "container" : {
-            deps : ['angular']
+            deps : ['config']
         },
         "core" : {
            deps : ['angular','container','angularoute'] 

@@ -9,6 +9,7 @@ and open the template in the editor.
         <title>J_KULA</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
+        <script type="text/javascript" data-main="scripts/main.js" src="scripts/require.js"></script>
          <link rel="stylesheet" href="../css/styleHead.css"/>
          <link href="css/stylecontainer.css" rel="stylesheet" type="text/css"/>
          <link href="css/aboutme.css" rel="stylesheet" type="text/css"/>
@@ -30,7 +31,7 @@ and open the template in the editor.
            
         </div>
         <header>
-            <script type="text/javascript" data-main="scripts/main.js" src="scripts/require.js"></script>
+            
              <div id="smHeader" ng-controller="HeaderCtrl as hd">
                  <div class="socialm">
                      <div class="github">
