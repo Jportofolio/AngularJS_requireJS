@@ -31,18 +31,18 @@ and open the template in the editor.
         </div>
         <header>
             <script type="text/javascript" data-main="scripts/main.js" src="scripts/require.js"></script>
-             <div id="smHeader">
+             <div id="smHeader" ng-controller="HeaderCtrl as hd">
                  <div class="socialm">
                      <div class="github">
-                        <img src="../wImages/sgithub.png"/>
+                         <img ng-click="hd.openrepo()" src="../wImages/sgithub.png"/>
                         <p>Public Repo...</p> 
                      </div>
                          
                      <div class="others">
-                         <img src="../wImages/slinkedin.png"/>
-                         <img src="../wImages/sgplus.png"/>
-                         <img src="../wImages/sface.png"/>
-                         <img src="../wImages/stwitter.png"/>
+                         <img ng-click="hd.linkedin()" src="../wImages/slinkedin.png"/>
+                         <img ng-click="hd.gplus()" src="../wImages/sgplus.png"/>
+                         <img ng-click="hd.faceme()" src="../wImages/sface.png"/>
+                         <img ng-click="hd.twitt()" src="../wImages/stwitter.png"/>
                      </div>
                  </div>
             </div> 

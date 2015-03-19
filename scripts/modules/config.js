@@ -30,7 +30,6 @@ define([],function(){
          }
          //contact Me Controller
         //Injecting $routerProvide into execRouter
-       config.$inject = ['$routeProvider'];
-         return config;
+         return ['$routeProvider',config];
        
 });

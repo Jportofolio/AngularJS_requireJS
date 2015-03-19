@@ -7,8 +7,9 @@
 define([],function(){
     var homeCtrl = function(){
         
-          var hom = this;
-          hom.name ="J_kula";
+         this.openrepo = function(){
+             window.open('https://github.com/Jportofolio');
+         };
     };
     return homeCtrl;
 });

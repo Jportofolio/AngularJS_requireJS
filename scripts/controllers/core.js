@@ -5,48 +5,18 @@
  */
 define(['container',
         'config',
+        'headerCtrl',
+        'contactCtrl',
         'homeCtrl'],
 
-  function(container,config){
+  function(container,config,headerCtrl,contactCtrl,homeCtrl){
    var jkula = angular.module('jkula',
             ['ngRoute']);
             jkula.config(config);
-            jkula.controller('contactCtrl',['$scope','$q','$http','$rootScope'
-                ,function($scope,$q,$http,$rootScope){
-               $scope.tokens = {
-                    mail: '',
-                    fname : '',
-                    lname: '',
-                    title :'',
-                    organiz: '',
-                    comment :''
-                };
-                this.sending = function(){
-                     var process = $q.defer();
-                    $http.post($rootScope.endPoint+ '/cgi-pages/contactme.php',$scope.tokens)
-                            .success(function(res){
-                                process.resolve(res);
-                                
-                            }). error(function(err, status){
-                                process.reject(err);
-                            });
-                  return process.promise;
-                };
-                this.submit = function(){
-                   var promise = this.sending();
-                   promise.then(function(){
-                       $scope.tokens={};
-                       console.log("Message has been sent");
-                   },function(){
-                       console.log("failed");
-                   });
-                };
-            }]);
-            jkula.controller('homePageCtrl',function(){
-                     var hom = this;
-                     hom.name ="J_kula";
-                 });
-           jkula.controller('aboutMeCtrl',function(){
+            jkula.controller('contactCtrl',contactCtrl);
+            jkula.controller('homePageCtrl',homeCtrl);
+            jkula.controller('HeaderCtrl',headerCtrl);
+            jkula.controller('aboutMeCtrl',function(){
                      var abt = this;
                     abt.hist ='hist';
                  });

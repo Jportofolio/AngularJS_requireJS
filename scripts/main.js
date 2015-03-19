@@ -16,6 +16,7 @@
         "config"       : "../scripts/modules/config",
         "container" : "../scripts/modules/container",
         "MessageHttp" : "../scripts/modules/MessageHttp",
+        "headerCtrl" : "../scripts/controllers/headerCtrl",
         //controllers
         "homeCtrl" : "../scripts/controllers/homeCtrl",
         "contactCtrl" : "../scripts/controllers/contactCtrl",
@@ -39,7 +40,9 @@
         "config" : {
             deps : ['angular','angularoute']
         },
-        
+        "headerCtrl" : {
+            deps : ['angular']
+        },
         "contactCtrl" : {
             deps : ['angular','config','container','MessageHttp']
         }
