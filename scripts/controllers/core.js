@@ -35,6 +35,7 @@ define(['container',
                 this.submit = function(){
                    var promise = this.sending();
                    promise.then(function(){
+                       $scope.tokens={};
                        console.log("Message has been sent");
                    },function(){
                        console.log("failed");
