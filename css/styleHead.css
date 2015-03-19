@@ -10,12 +10,12 @@ and open the template in the editor.
 
 @font-face{
     font-family: Myriad pro;
-    src: url('fonts/Myriadpro.ttf') format('truetype');
+    src: url('css/Myriadpro.ttf') format('truetype');
 }
 
 @font-face{
     font-family: vrinda;
-    src: url('fonts/Vrinda.ttf') format('truetype');
+    src: url('css/Vrinda.ttf') format('truetype');
 }
 
 

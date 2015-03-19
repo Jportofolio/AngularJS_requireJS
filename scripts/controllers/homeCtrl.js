@@ -7,9 +7,7 @@
 define([],function(){
     var homeCtrl = function(){
         
-         this.openrepo = function(){
-             window.open('https://github.com/Jportofolio');
-         };
+        
     };
     return homeCtrl;
 });

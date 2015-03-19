@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
+(function(){
  require.config({
     appDir : '',
     //baseUrl : './scripts',
@@ -11,10 +11,11 @@
     //Defining paths
     paths  : {
         "jquery" : "../scripts/jquery/jquery",
-        "angular" : "../scripts/angular/angular.min",
+        "angular" : "../scripts/angular/angular", 
         "angularoute" : "../scripts/angular/angular-route",
-        "config"       : "../scripts/modules/config",
         "container" : "../scripts/modules/container",
+        "config"       : "../scripts/modules/config",
+       
         "MessageHttp" : "../scripts/modules/MessageHttp",
         "headerCtrl" : "../scripts/controllers/headerCtrl",
         //controllers
@@ -53,3 +54,5 @@
  require(["angular","core"],function(){
     angular.bootstrap(document, ['jkula']); 
  });
+ 
+ })();
