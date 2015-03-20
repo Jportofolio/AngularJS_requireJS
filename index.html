@@ -22,17 +22,17 @@ and open the template in the editor.
             <nav> 
                 <ul>
                     <li>
-                        <a href="#aboutme"> <img src="../wImages/0-saboutme.png"/>About J.kula</a></li>
-                <li><a href="#"><img src="../wImages/4-smyblog.png"/>MyBlog</a></li>
-                <li><a href="#"><img src="../wImages/3sportfolio.png"/>Portfolio</a></li>
-                <li><a href="#contact"><img src="../wImages/1-contact.png"/>Contact</a></li>
+                        <a href="#aboutme"> <img alt="J_kula" src="../wImages/0-saboutme.png"/>About J.kula</a></li>
+                <li><a href="#"><img alt="Myblog" src="../wImages/4-smyblog.png"/>MyBlog</a></li>
+                <li><a href="#"><img alt="portofolio" src="../wImages/3sportfolio.png"/>Portfolio</a></li>
+                <li><a href="#contact"><img alt="contact" src="../wImages/1-contact.png"/>Contact</a></li>
             </ul>
             </nav>
            
         </div>
-        <header>
+        <header ng-controller="HeaderCtrl as hd">
             
-             <div id="smHeader" ng-controller="HeaderCtrl as hd">
+             <div id="smHeader">
                  <div class="socialm">
                      <div class="github">
                          <img ng-click="hd.openrepo()" src="../wImages/sgithub.png"/>
@@ -52,7 +52,7 @@ and open the template in the editor.
             <div id="squareback">
                 <div class="mdetails">
                     <div class="mimage">
-                        <img alt="Jkula profile Picture" src="../wImages/Jkula_001.png"/>
+                        <img ng-click="hd.home()" alt="Jkula profile Picture" src="../wImages/Jkula_001.png"/>
                         
                     </div>
                     <div  class="mprof">

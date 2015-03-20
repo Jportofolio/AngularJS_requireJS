@@ -16,7 +16,6 @@
         "container" : "../scripts/modules/container",
         "config"       : "../scripts/modules/config",
        
-        "MessageHttp" : "../scripts/modules/MessageHttp",
         "headerCtrl" : "../scripts/controllers/headerCtrl",
         //controllers
         "homeCtrl" : "../scripts/controllers/homeCtrl",
@@ -45,7 +44,7 @@
             deps : ['angular']
         },
         "contactCtrl" : {
-            deps : ['angular','config','container','MessageHttp']
+            deps : ['angular','config','container']
         }
     }
      

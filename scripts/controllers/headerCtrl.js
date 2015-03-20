@@ -32,6 +32,9 @@ define([],
         that.twitt = function(){
             window.open("https://twitter.com/j_kuler");
         };
+        that.home = function(){
+           window.location.href ="#home"  
+        };
       return that;
     };
  

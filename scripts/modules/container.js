@@ -6,15 +6,15 @@
 
 
 define([],function(){
-    return function container(){
+    return function(){
         //wrapper = {};
         return {
-            scope :true,
             restrict:'E',
             link:function(s,e,a){
                //angular.element(e).fadeIn(300);
                
             },
+            replace: true,
             template:'<div ng-view="" id="bicong"> Loading...</div>'
         };
     };
