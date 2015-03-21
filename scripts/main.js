@@ -33,18 +33,18 @@
         },
         "container" : {
             deps : ['config']
+        }, 
+        "config" : {
+            deps : ['angular','angularoute']
         },
         "core" : {
            deps : ['angular','container','angularoute'] 
-        },
-        "config" : {
-            deps : ['angular','angularoute']
         },
         "headerCtrl" : {
             deps : ['angular']
         },
         "contactCtrl" : {
-            deps : ['angular','config','container']
+            deps : ['angular','angularoute']
         }
     }
      

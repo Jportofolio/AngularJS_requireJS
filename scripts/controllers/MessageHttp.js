@@ -7,6 +7,7 @@
    define([],function(){
     
         function MessageHttp(){
+          
         }
        return MessageHttp;
               
