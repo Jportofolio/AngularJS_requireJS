@@ -9,7 +9,7 @@
  define([],
     function(){
         
-           function contactCtrl($scope,$q,$http,$rootScope){
+           function contactCtrl($scope,$q,$http,$rootScope,$modal){
                $scope.msgsent = false;
                $scope.tokens = {
                     mail: '',
@@ -26,7 +26,7 @@
                                 process.resolve(res);
                                 
                             }). error(function(err, status){
-                                process.reject(err);
+                                process.reject(err,status);
                             });
                   return process.promise;
                 };

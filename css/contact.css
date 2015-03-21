@@ -188,3 +188,5 @@ textarea.ng-dirty.ng-valid{
     border-left-width: 7px;
     border-style: solid;
 }
+@import "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css";
+@import "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css"
