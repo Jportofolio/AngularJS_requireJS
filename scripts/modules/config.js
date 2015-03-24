@@ -5,7 +5,8 @@
  */
 
 
-define([],function(){
+define([],
+      function(){
     
          //Defining the execRouter
          function config($routeProvider){
@@ -25,11 +26,13 @@ define([],function(){
             }).
             otherwise({
                 redirectTo:'/home'
-            });        
+            }); 
+           
                     
          }
          //contact Me Controller
         //Injecting $routerProvide into execRouter
+        
          return ['$routeProvider',config];
        
 });

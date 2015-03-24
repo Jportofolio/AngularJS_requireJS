@@ -56,7 +56,7 @@ input[type="email"],textarea:focus{
 }
 #cWrapper .container .setholer form input[type="text"],input[type="email"]{
     line-height: 28px;
-    padding-left: 3px;
+    padding: 3px 4px;
     font-family: Arial;
     font-size:13px;
     border-radius: 4px;
@@ -77,6 +77,11 @@ input[type="email"],textarea:focus{
     padding: 3px;
     box-sizing: border-box; 
     resize:none;
+}
+#cWrapper .container .setholer form span{
+    font-family: 'Arial';
+    font-size:12px;
+    font-style: normal;
 }
 #cWrapper .container .setholer form input[type="submit"]:focus{
     outline:none;
@@ -161,6 +166,12 @@ form[novalidate] input,textarea{
     box-shadow: none;
     
 }
+form .ng-submitted{
+     border-color: #17AA25;
+    border-left-width: 7px;
+    border-style: solid;
+}
+
 input[required].ng-dirty{
     border:2px solid red;
     box-shadow: none;
@@ -188,5 +199,6 @@ textarea.ng-dirty.ng-valid{
     border-left-width: 7px;
     border-style: solid;
 }
+
 @import "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css";
 @import "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css"

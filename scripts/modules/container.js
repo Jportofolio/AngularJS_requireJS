@@ -9,6 +9,7 @@ define([],function(){
     return function(){
         //wrapper = {};
         return {
+            scope: {},
             restrict:'E',
             link:function(s,e,a){
                //angular.element(e).fadeIn(300);

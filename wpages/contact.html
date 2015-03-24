@@ -1,13 +1,7 @@
  <div id="cWrapper">
-     <style type="text/css" scoped>
-      @import url("../css/contact.css");
- 
-       </style>
+      
             <div class="container">
                 <div class="setholer" ng-controller="contactCtrl as c">
-                    <div class="notify" ng-if="c.msgsent">
-                        Message has been sent !!
-                    </div>
                     <form method="post" ng-submit="c.submit()" name="kcontact" id="contactk" novalidate>
                         <dl>
                             <dt>Email Address</dt>
@@ -43,7 +37,7 @@
                                     ng-model="tokens.lname"
                                     ng-maxlength="23"
                                     ng-minlength="4" required>
-                                <span ng-show="kcontact.lname.$dirty && kcontact.lname.$error.maxlength">Too Long</span>
+                                <span ng-show="kcontact.lname.$dirty && kcontact.lname.$error.maxlength">Too long</span>
                                 <span ng-show="kcontact.lname.$dirty && kcontact.lname.$error.minlength">Too short</span>
                             </dd>
                             <dt>Title</dt>
@@ -57,7 +51,7 @@
                                     ng-pattern="/a*/"
                                     ng-maxlength="23"
                                     ng-minlength="4" required>
-                                <span ng-show="kcontact.title.$dirty && kcontact.title.$error.maxlength">Too Long</span>
+                                <span ng-show="kcontact.title.$dirty && kcontact.title.$error.maxlength">Too long</span>
                                 <span ng-show="kcontact.title.$dirty && kcontact.title.$error.minlength">Too short</span>
                                 
                             </dd>
@@ -83,13 +77,20 @@
                                 </textarea></dd>
                             <dd>
                                 <p>
-                                    <input type="submit"ng-disabled="kcontact.$invalid" value="submit">
-                                   <button ng-disabled="kcontact.$invalid">Cancel</button>
+                                    <input type="submit"
+                                           value="submit"
+                                           ng-click="c.send(); kcontact.$setPristine()"
+                                           ng-disabled="kcontact.$invalid">
+                                   <button 
+                                       ng-click="c.resetform();"
+                                       ng-disabled="kcontact.$invalid">Cancel</button>
                                 </p> 
                             </dd>
                         </dl> 
                    </form>
-                    
+         <style type="text/css">
+            @import url("css/contact.css");
+       </style>
                 </div>
             </div>
         </div>

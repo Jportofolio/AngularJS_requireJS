@@ -12,14 +12,15 @@
     paths  : {
         "jquery" : "../scripts/jquery/jquery",
         "angular" : "../scripts/angular/angular", 
+        "bootstrap" : "../scripts/bootstrap/ui-bootstrap-tpls-0.12.1",
         "angularoute" : "../scripts/angular/angular-route",
         "container" : "../scripts/modules/container",
         "config"       : "../scripts/modules/config",
-       
         "headerCtrl" : "../scripts/controllers/headerCtrl",
         //controllers
         "homeCtrl" : "../scripts/controllers/homeCtrl",
         "contactCtrl" : "../scripts/controllers/contactCtrl",
+        "ModalObject" : "../scripts/controllers/ModalObject",
         "core" : "../scripts/controllers/core"
     },
     shim    : {
@@ -27,10 +28,14 @@
         "angular" : {
             deps:  ['jquery']
         },
+        "bootstrap" : {
+            deps : ['angular','jquery']
+        },
         //angular-route dependency
         "angularoute" : {
             deps : ['angular']
         },
+        
         "container" : {
             deps : ['config']
         }, 
@@ -38,13 +43,18 @@
             deps : ['angular','angularoute']
         },
         "core" : {
-           deps : ['angular','container','angularoute'] 
+           deps : ['angular','container','angularoute','bootstrap',
+        'config',
+        'headerCtrl',
+        'contactCtrl',
+        'ModalObject',
+        'homeCtrl'] 
         },
         "headerCtrl" : {
             deps : ['angular']
         },
         "contactCtrl" : {
-            deps : ['angular','angularoute']
+            deps : ['angular','angularoute','ModalObject']
         }
     }
      

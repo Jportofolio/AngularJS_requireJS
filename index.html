@@ -8,28 +8,16 @@ and open the template in the editor.
     <head>
         <title>J_KULA</title>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width">
-        <script type="text/javascript" data-main="scripts/main.js" src="scripts/require.js"></script>
          <link rel="stylesheet" href="../css/styleHead.css"/>
          <link href="css/stylecontainer.css" rel="stylesheet" type="text/css"/>
          <link href="css/aboutme.css" rel="stylesheet" type="text/css"/>
+
+
+
          <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Josefin+Slab" />
     </head>
     <body style="margin: 0; padding: 0;"> 
-   <div id="bnavi">
-            <nav> 
-                <ul>
-                    <li>
-                        <a href="#aboutme"> <img alt="J_kula" src="../wImages/0-saboutme.png"/>About J.kula</a></li>
-                <li><a href="#"><img alt="Myblog" src="../wImages/4-smyblog.png"/>MyBlog</a></li>
-                <li><a href="#"><img alt="portofolio" src="../wImages/3sportfolio.png"/>Portfolio</a></li>
-                <li><a href="#contact"><img alt="contact" src="../wImages/1-contact.png"/>Contact</a></li>
-            </ul>
-            </nav>
-           
-        </div>
         <header ng-controller="HeaderCtrl as hd">
-            
              <div id="smHeader">
                  <div class="socialm">
                      <div class="github">
@@ -38,14 +26,25 @@ and open the template in the editor.
                      </div>
                          
                      <div class="others">
-                         <img ng-click="hd.linkedin()" src="../wImages/slinkedin.png"/>
-                         <img ng-click="hd.gplus()" src="../wImages/sgplus.png"/>
-                         <img ng-click="hd.faceme()" src="../wImages/sface.png"/>
-                         <img ng-click="hd.twitt()" src="../wImages/stwitter.png"/>
+                         <img ng-click="hd.linkedin()" ng-src="{{hd.Img['linkin']}}"/>
+                         <img ng-click="hd.gplus()" src="{{hd.Img['gplus']}}"/>
+                         <img ng-click="hd.faceme()" src="{{hd.Img['face']}}"/>
+                         <img ng-click="hd.twitt()" src="{{hd.Img['twitt']}}"/>
                      </div>
                  </div>
             </div> 
+            <div id="bnavi" >
+            <nav> 
+                <ul>
+                    <li>
+                <a href="#aboutme"> <img alt="J_kula" ng-src="../wImages/0-saboutme.png"/>About J.kula</a></li>
+                <li><a href="#"><img alt="Myblog" ng-src="../wImages/4-smyblog.png"/>MyBlog</a></li>
+                <li><a href="#"><img alt="portofolio" ng-src="../wImages/3sportfolio.png"/>Portfolio</a></li>
+                <li><a href="#contact"><img alt="contact" ng-src="../wImages/1-contact.png"/>Contact</a></li>
+            </ul>
+            </nav>
            
+        </div>
             <!--Square Background -->
             <div id="squareback">
                 <div class="mdetails">
@@ -58,9 +57,10 @@ and open the template in the editor.
                         <p>Software Developer</p>
                         <p>Josh.kula@outlook.com</p>
                   </div>
-                    
+                </div>     
             </div>
-        </header>    
+        </header>
+        <script type="text/javascript" data-main="scripts/main.js" src="scripts/require.js"></script>    
     <wrapper>
         
     </wrapper>
@@ -120,6 +120,7 @@ and open the template in the editor.
                    <div class="place"><img src="../wImages/splace.png" /></div>
                    <div class="semail"><img src="../wImages/semail.png" /></div>
                </div>
+               
                </div>
            </div>  
        </footer>

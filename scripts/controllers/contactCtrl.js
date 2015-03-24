@@ -9,8 +9,8 @@
  define([],
     function(){
         
-           function contactCtrl($scope,$q,$http,$rootScope,$modal){
-               $scope.msgsent = false;
+           function contactCtrl($scope,$q,$http,$rootScope){
+              this.status = 'submit';
                $scope.tokens = {
                     mail: '',
                     fname : '',
@@ -29,14 +29,17 @@
                                 process.reject(err,status);
                             });
                   return process.promise;
-                };
+                };               
+                 $scope.resetform = function(){
+                 $scope.tokens = {};
+              };
                 this.submit = function(){
                    var promise = this.sending();
                    promise.then(function(){
-                       $scope.msgsent = true;
-                       console.log("Message has been sent");
+                        $scope.tokens = {};
+               
                    },function(){
-                       console.log("failed");
+                       $scope.tokens = {};
                    });
                 };
             }
