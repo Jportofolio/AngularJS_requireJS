@@ -62,7 +62,6 @@ body{
 header{display:block;
     width:100%; background-color:#2E2D3F;
     color: white; 
-    background-image: url("../wImages/bkgg.png");
     height:auto; }
 header #smHeader{
     width:100%; 
