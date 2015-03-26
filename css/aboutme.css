@@ -11,17 +11,16 @@ and open the template in the editor.
 /*Mixing Goes here*/
 
 .desciptHeight {
-// 
   height: 400px;
   width: 490px;
-  //border: 1px solid #2E2D3F;
+
 }
-/*-------*/
+
 #abtwrapper {
   height: 350px;
   padding-top:30px;
  padding-bottom:10px;
-  //border: 2px solid #ccc;
+
 }
 #abtwrapper .jdescritp {
   margin: 0 auto;
@@ -33,7 +32,6 @@ and open the template in the editor.
   height: 320px; text-align: center;
   width: 150px;
   
-  //border: 1px solid #2E2D3F;
 }
 #abtwrapper .jdescritp .leftdescript img{
     margin-top:15px;

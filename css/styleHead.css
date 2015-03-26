@@ -43,7 +43,6 @@ body{
         line-height:40px; display: block;
         float:left;
       }
-//#bnavi ul li:first-child{ list-style-image: url(../wImages/0-saboutme.png);}
 #bnavi ul li a{ height: 40px;  
          display: block; 
          width: 150px; 
@@ -62,7 +61,8 @@ body{
 
 header{display:block;
     width:100%; background-color:#2E2D3F;
-    color: white;
+    color: white; 
+    background-image: url("../wImages/bkgg.png");
     height:auto; }
 header #smHeader{
     width:100%; 
@@ -70,14 +70,12 @@ header #smHeader{
     background-color: #333333;
     
 }    
-/* The Header Social MEDIA*/
 
 #smHeader .socialm{
     margin:0px auto;
-    z-index: 20; text-align: right;
+   text-align: right;
     width: 960px; line-height: 44px;
   
-    //border-bottom: 3px solid #2094CE;
     
 }
 #smHeader .socialm .github{
@@ -101,7 +99,6 @@ header #smHeader{
 #smHeader .socialm .others >img{margin:3px; cursor: pointer;}
 header #squareback{
     height: 209px;
-    background: url("../wImages/bluesquare.png") no-repeat;
     background-position:left;
     width:100%;
 }
@@ -136,7 +133,9 @@ header #squareback{
    
     
 }
-.mdetails > .mprof p{ padding-right: 10px; border-right: 4px solid #29ABE2; }
+.mdetails > .mprof p{ padding-right: 10px; 
+            border-right: 4px solid #29ABE2;
+            background-color:#2E2D3F;}
 .mdetails > .mprof p:first-child{
     color: #29ABE2;
     font-family: 'Josefine',Arial;
