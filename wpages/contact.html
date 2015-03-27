@@ -1,5 +1,7 @@
  <div id="cWrapper">
-      
+     <style scoped type="text/css">
+          @import url("css/contact.css");
+     </style>
             <div class="container">
                 <div class="setholer" ng-controller="contactCtrl as c">
                     <form method="post" ng-submit="c.submit()" name="kcontact" id="contactk" novalidate>
@@ -67,7 +69,7 @@
                                 <span ng-show="kcontact.organiz.$dirty && kcontact.organiz.$error.minlength">Too short</span>
                             </dd>
                             <dt>Comments</dt>
-                            <dd><textarea cols="37" 
+                            <dd><textarea cols="47" 
                                           name="comment" 
                                           rows="5" 
                                           ng-model="tokens.comment"
@@ -87,10 +89,7 @@
                                 </p> 
                             </dd>
                         </dl> 
-                   </form>
-         <style type="text/css">
-            @import url("css/contact.css");
-       </style>
+                    </form>
                 </div>
             </div>
         </div>
