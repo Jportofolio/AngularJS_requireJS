@@ -180,11 +180,7 @@ and open the template in the editor.
     Author     : J_kula
 */
 /* This is the  1st Fist Conainer*/
-body{ 
-  
-     width: 100%;
-     margin: 0; padding: 0;
-    }
+
  
  Article{
   background-color:#29ABE2;
@@ -290,12 +286,12 @@ body{
    cursor:pointer;
 }
 #branch .Myblog, .portfolio, .aboutme h4{
-    font-family: 'Myriadpro',arial;
+   font-family:'Myriadpro',Arial;
     font-size:23px; 
     color: #333333;
 }
 #branch .Myblog p, .portfolio p, .aboutme p{
-    font-family: 'Myriadpro',serif;
+    font-family:'Myriadpro',Arial;
     font-size: 15px; 
     color: #666666; 
     text-wrap: normal;
