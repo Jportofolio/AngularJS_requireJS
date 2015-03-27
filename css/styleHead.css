@@ -363,7 +363,7 @@ footer #wrapper2{
              width:120px;
              list-style: none; display: inline;}
 #wrapper2 #submenu ul li a{display:block; 
-               font-family:'Myriadpro'; 
+               font-family:'Myriadpro',Arial; 
                text-decoration: none;
                color: #666666;
                font-size: 14px;
