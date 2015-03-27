@@ -5,9 +5,12 @@
  */
 
 define([],function(){
-    var homeCtrl = function(){
-        
-        
+    var homeCtrl = function($location){
+       var hm = this;
+       
+       hm.aboutme = function(){
+          $location.path ='/aboutme';   
+       };
     };
-    return homeCtrl;
+    return ['location',homeCtrl];
 });
