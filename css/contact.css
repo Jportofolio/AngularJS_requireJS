@@ -42,15 +42,16 @@ and open the template in the editor.
     padding-top:1.0em;
    
 }
-#cWrapper .container .setholer form dl dt{
-    font-family: 'Shruti',arial;
+#cWrapper .container .setholer form dl dd{
+    font-family: 'Myriadpro',Arial;
     font-size: 0.9em;
-    margin-bottom:3px;
+    margin-bottom: 3px;
     
 }
 #cWrapper .container .setholer form input[type="text"],
 input[type="email"],textarea:focus{
      -webkit-appearance: none;
+     -ms-zoom: normal;
      outline:none;
   
 }
@@ -148,14 +149,7 @@ input[type="email"],textarea:focus{
 #cWrapper .container .setholer form button:active{
     background: #2094CE; color:#ffffff;
 }
-@font-face{
-    font-family: vrinda;
-    src: url('Vrinda.woff') format('woff');
-}
-@font-face{
-    font-family: Shruti;
-    src: url('Shruti.woff') format('woff');
-}
+
 span:nth-child(1){color:red;}
 form[novalidate] input,textarea{
     border-left-width: 7px;
@@ -197,6 +191,13 @@ textarea.ng-dirty.ng-valid{
     border-left-width: 7px;
     border-style: solid;
 }
-
+@font-face{
+    font-family: Myriadpro;
+    src: url('Myriadpro.woff') format('woff');
+}
+@font-face{
+    font-family: Shruti;
+    src: url('Shruti.woff') format('woff');
+}
 @import "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css";
 @import "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css"
