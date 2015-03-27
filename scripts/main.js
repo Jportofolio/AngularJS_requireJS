@@ -55,6 +55,9 @@
         },
         "contactCtrl" : {
             deps : ['angular','angularoute','ModalObject']
+        },
+        "homeCtrl" : {
+            deps : ['angular']
         }
     }
      

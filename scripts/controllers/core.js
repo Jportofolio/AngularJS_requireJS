@@ -21,7 +21,7 @@ define([
             jkula.config(config);
             jkula.directive('wrapper',container); 
             jkula.controller('HeaderCtrl',headerCtrl);
-            jkula.controller('homePageCtrl',homeCtrl);
+            jkula.controller('homeCtrl',homeCtrl);
             jkula.controller('contactCtrl',contactCtrl);
             jkula.controller('aboutMeCtrl',function(){
                      var abt = this;

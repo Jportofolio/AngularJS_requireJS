@@ -13,7 +13,7 @@ define([],
              $routeProvider.
             when('/home',{
                 templateUrl:'wpages/entree.html',
-                controller:'homePageCtrl'
+                controller:'homeCtrl'
            }).
             when('/aboutme',{
                 templateUrl: 'wpages/aboutme.html'

@@ -9,8 +9,9 @@ define([],function(){
        var hm = this;
        
        hm.aboutme = function(){
-          $location.path ='/aboutme';   
+          window.location.href ="#aboutme";  
        };
+       return hm;
     };
-    return ['location',homeCtrl];
+    return ['$location',homeCtrl];
 });

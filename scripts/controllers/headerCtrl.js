@@ -8,7 +8,7 @@
 define([],
           function(){
     
-   function headerCtrl($http,$rootScope){
+   function headerCtrl(){
          var that = this;
          var site = 'http://jkula';
          //Loaging images in javascript

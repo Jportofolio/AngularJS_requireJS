@@ -13,7 +13,7 @@
                         </div>
                     </div>
                     <div class="devbox">
-                        <img src="../wImages/dev-imges.png" />
+                        <img alt="dev hadhoc process" src="../wImages/dev-imges.png" />
                 </div>
             </div>
         </article>
@@ -21,14 +21,14 @@
         <div id="middle">
             <div class="trending">
                <ul>
-                <li><img src="../wImages/strending.png" /> Trending <a href="#">Let's see</a></li>
+                <li><img alt="Trending in Development" src="../wImages/strending.png" /> Trending <a href="#">Let's see</a></li>
               </ul>
             </div>  
          </div>
      
-       <!-- END TRENDING--->
-       <!-- Great container and details--->
-       <div id="wrapper1">
+       <!-- END TRENDING-->
+       <!-- Great container and details-->
+       <div id="wrapper1" ng-controller="homeCtrl as h">
            <div id="branch">
               <!--fir branch-->
               <div class="Myblog">
@@ -44,7 +44,7 @@
               </div>
                   <!--Third This is about me text-->
               <div class="aboutme">
-                  <img alt="About Josue kula" src="../wImages/baboutme.png"><br/>
+                  <img ng-click="h.aboutme()" alt="About Josue kula" src="../wImages/baboutme.png"><br/>
                   <h4>About J_Kula</h4>
                   <p>Josue Kula is a software Developer; He is specialized on developing web application for Business entities with skills on Backend and Frontend development.</p>
               </div>
