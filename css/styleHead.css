@@ -8,15 +8,8 @@ and open the template in the editor.
     Author     : J_kula
 */
 
-@font-face{
-    font-family: Myriad pro;
-    src: url('css/Myriadpro.ttf') format('truetype');
-}
 
-@font-face{
-    font-family: vrinda;
-    src: url('css/Vrinda.ttf') format('truetype');
-}
+
 
 
 *{
@@ -172,15 +165,7 @@ and open the template in the editor.
 @font-face{
     font-family: Nirmalas;
     src: url('Nirmalas.woff') format('woff');
-   // src: local(Nirmalas),url("../fonts/Nirmalas.woff");
 }
-
-/* 
-    Created on : Feb 5, 2015, 2:32:06 PM
-    Author     : J_kula
-*/
-/* This is the  1st Fist Conainer*/
-
  
  Article{
   background-color:#29ABE2;

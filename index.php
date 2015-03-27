@@ -35,10 +35,10 @@ and open the template in the editor.
             <nav> 
                 <ul>
                     <li>
-                <a href="#aboutme"> <img alt="J_kula" ng-src="../wImages/0-saboutme.png"/>About J.kula</a></li>
-                <li><a href="#"><img alt="Myblog" ng-src="../wImages/4-smyblog.png"/>MyBlog</a></li>
-                <li><a href="#"><img alt="portofolio" ng-src="../wImages/3sportfolio.png"/>Portfolio</a></li>
-                <li><a href="#contact"><img alt="contact" ng-src="../wImages/1-contact.png"/>Contact</a></li>
+                <a href="#aboutme"> <img src="../wImages/0-saboutme.png"/>About J.kula</a></li>
+                <li><a href="#"><img src="../wImages/4-smyblog.png"/>MyBlog</a></li>
+                <li><a href="#"><img src="../wImages/3sportfolio.png"/>Portfolio</a></li>
+                <li><a href="#contact"><img src="../wImages/1-contact.png"/>Contact</a></li>
             </ul>
             </nav>
            

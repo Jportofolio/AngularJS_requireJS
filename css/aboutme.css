@@ -42,15 +42,15 @@ and open the template in the editor.
     font-weight: 600;
     color: #333333;
 }
-#abtwrapper .jdescritp .leftdescript p > b{
+#abtwrapper .jdescritp .leftdescript pre{
     margin-top: 0px;
-    color: #2094CE; 
-    font-family: 'Vrinda', arial;
-    font-size: 14px;
+    color: #B3B3B3;
+    font-family: 'Myriadpro', arial;
+    font-size: 0.9em;
 }
 #abtwrapper .jdescritp .righdecript {
   float: right;
-  height: 310px;
+  height: 303px;
   width: 750px;
   border-left: 4px solid #808080;
   padding-left: 17px; padding-right: 6px;
@@ -66,10 +66,10 @@ and open the template in the editor.
     color: #808080;
 }
 @font-face{
-    font-family: Shruti;
-    src:url(Shruti.ttf);
+    font-family: Myriadpro;
+    src: url('Myriadpro.woff') format('woff');
 }
 @font-face{
     font-family: vrinda;
-    src: url(Vrinda.ttf);
+    src: url('Vrinda.woff') format('woff');
 }

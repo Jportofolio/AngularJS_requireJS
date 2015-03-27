@@ -98,13 +98,11 @@ input[type="email"],textarea:focus{
     -moz-border-radius: 3px;
     font-family: 'Arial', sans-serif;
     font-size: 80%;
-    //Transition on hover
     -webkit-transition: background-color 0.5s ease;
     transition: background-color 0.5s ease;
     transition-property: background-color;
     transition-duration: 0.5s;
     transition-timing-function: ease;
-    //font-size: 70%;
     margin-top:4px;
     background: #9999ff;
     color: #fff;
