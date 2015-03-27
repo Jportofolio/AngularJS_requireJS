@@ -151,4 +151,309 @@ header #squareback{
     font-family: 'Myriadpro',vernada;
     font-size: 15px;
 }
-// This is the bottom Navigation
+/* this is the style for container*/
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/@font-face{
+    font-family: Myriadpro;
+    src: url('Myriadpro.woff') format('woff');
+}
+@font-face{
+    font-family: centabel;
+    src: url('centabel.woff') format('woff');
+}
+@font-face{
+    font-family: vrinda;
+    src: url('Vrinda.woff') format('woff');
+}
+@font-face{
+    font-family: Nirmalas;
+    src: url('Nirmalas.woff') format('woff');
+   // src: local(Nirmalas),url("../fonts/Nirmalas.woff");
+}
+
+/* 
+    Created on : Feb 5, 2015, 2:32:06 PM
+    Author     : J_kula
+*/
+/* This is the  1st Fist Conainer*/
+body{ 
+  
+     width: 100%;
+     margin: 0; padding: 0;
+    }
+ 
+ Article{
+  background-color:#29ABE2;
+  padding: 0; margin: 0;
+
+  }
+#wrapper{
+    width:100%;
+    height: 340px;
+ 
+}
+
+#container{
+    width: 960px;
+    height: 340px;
+    margin: 0px auto; 
+
+     
+}
+#container .state, .devbox{
+    display: inline-table;
+    vertical-align: top;
+    height: 330px;
+}
+#container .state{
+    margin-right: 7px;
+    width: 430px;
+}
+#container .state p.title{
+    line-height: 40px;
+    margin-top:30px;
+    background-color: #17AA25;
+    border:2px solid white;
+    text-align: center;
+    color: white;
+    font-family: 'Myriadpro',Arial;
+      font-size: 19px;
+}
+#container .state .gitmehub{
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border:1px solid white;
+    width: inherit;
+    margin-top: 40px;
+    height: 50px;
+}
+#container .state p.explain{
+    padding-top: 20px;
+    color: white; height: 100px;
+    font-family: 'Josefine',Arial;
+    vertical-align:middle;
+    font-size: 20px; text-align: center;
+}
+#container .devbox{
+    text-align:center; 
+    padding-top:17px; float: right;
+    width: 400px;
+    
+   
+}
+/* This is the MIDDLE LINE FOR TRENDING LINK*/
+#middle{ width:100%; margin: 0; padding: 0;
+         height:40px;
+         background-color: #2E2D3F;
+        }
+#middle .trending{ margin: 0px auto; 
+                   width: 240px; display: block;
+                   line-height: 38px; vertical-align: middle;
+                   }
+
+#middle ul{padding: 0; width: 400px; margin: 0; position: relative;}
+#middle ul li {
+              font-family: 'centabel',arial;
+              float: left;
+              color:white; list-style: none;
+              line-height: 40px;
+              }
+#middle ul li img{ float:left; display:block;
+                margin-right: 7px; 
+                margin-top:1px; }
+#middle ul li a { text-decoration: none; display: block; margin-left: 8px;
+                 color: green; width: 230px; float: right;}
+
+/*This is the Great Container*/
+
+#wrapper1{ width: 100%; 
+           height: 300px; 
+           background-color: white;}
+#wrapper1 #branch{
+    width: 960px; 
+    margin:0px auto;
+    height:inherit; 
+}
+#branch .Myblog, .portfolio, .aboutme{
+    display:cell-table;
+    height: 200px; float:right;
+    margin-top: 20px;
+    width: 320px;  text-align: center;
+   
+}
+#branch .Myblog, .portfolio, .aboutme h4{
+    font-family: 'Myriadpro',arial;
+    font-size:23px; 
+    color: #333333;
+}
+#branch .Myblog p, .portfolio p, .aboutme p{
+    font-family: 'Myriadpro',serif;
+    font-size: 15px; 
+    color: #666666; 
+    text-wrap: normal;
+    margin-top:11px; 
+    width:320px;
+    text-align:center;
+}
+#branch .Myblog p a, .portfolio p a, .aboutme p a{text-decoration: none; color: #666666; }
+#branch .Myblog p a:hover, 
+.portfolio p a:hover, 
+.aboutme p a:hover{color: #29ABE2;}
+/* ---- THE END OF MIDDLE and GREAT CONTAINER -----------*/
+/* This is the Learn More on these Technologies*/
+
+#Learntech{
+    width:100%;
+    height:174px;
+    background-color: #2E2D3F;
+    border-top: 3px solid #2094CE;
+}
+#Learntech #techwrapper{
+    width:960px;
+    height: 137px;
+    margin:0px auto;
+    text-align: center;
+    
+}
+#techwrapper .learnmore{
+    width: auto;
+   
+}
+
+#techwrapper .learnmore p{
+            position: relative; width:auto; 
+            background-color: #2E2D3F;
+            bottom:-12px; color:white;
+            font-family:'centabel',sans-serif; 
+            font-size:20px;}
+#techwrapper .learnmore > .techimg{
+    height:75px;
+    margin-top:29px;
+    width:960px; display:block;
+}
+#techwrapper .learnmore > .techimg img{cursor:pointer;}
+/* This is the Footer */
+footer{
+    width:100%; background-color:white;
+    height: 255px;
+    border-bottom: 2px solid #666666;
+}
+footer #wrapper2{
+    margin:0px auto; 
+    width:960px; 
+   
+}
+#wrapper2 #submenu{
+    margin:0px auto; padding-top: 14px; 
+    width:960px; height: 42px;
+  
+}
+#wrapper2 #submenu ul{
+         margin: 0; 
+         padding: 0; 
+         width:480px; margin: auto;
+         line-height:37px; 
+         clear: both;}
+#wrapper2 #submenu ul li{position:relative; 
+             float:left; text-align: center;
+             width:120px;
+             list-style: none; display: inline;}
+#wrapper2 #submenu ul li a{display:block; 
+               font-family:'Myriadpro'; 
+               text-decoration: none;
+               color: #666666;
+               font-size: 14px;
+               line-height: 34px;
+               }
+/* TREE BOTTOM BLOCK --- Go here */
+#wrapper2 #lastblock{
+    width: 960px; clear: both;
+    height:178px; margin:0px auto;
+}
+
+#wrapper2 .connect, .contact, .w3c{
+    display: table-cell;
+    height: 178px;
+    width: 310px;
+}
+#wrapper2 .connect{
+    margin-right: 3px;
+    text-align: center;
+    vertical-align: bottom;
+}
+#wrapper2 .connect p{
+    line-height: 40px;
+    margin-bottom:41px; text-align:left;
+    font-family:'Josefine',sans-serif;
+    font-size:29px;
+    color:#4D4D4D;
+}
+#wrapper2 .connect .subsmedia{
+    display:block;
+    height: 44px; width: 199px;
+    text-align: left;
+    border-bottom: 1px solid #999999;
+    
+}
+#wrapper2 .connect .subsmedia >img{ margin-top: 7px; cursor: pointer;}
+#wrapper2 .connect .rights{
+    line-height: 28px;
+    text-align: left;
+    font-family: 'Myriadpro',Arial;
+    font-size:12px;
+        
+}
+#wrapper2 .w3c{
+   margin-right: 3px;
+    text-align: center;
+    vertical-align: bottom;
+}
+#wrapper2 .w3c img{ margin-bottom: 29px;}
+#wrapper2 .contact{
+  text-align:left;
+  vertical-align: bottom;
+  padding-left: 30px;
+}
+
+#wrapper2 .contact .mnom, .place , .semail{
+    line-height: 45px;
+    width:300px;
+    border-bottom:1px dashed #B3B3B3;
+    vertical-align: middle;
+}
+#wrapper2 .contact .place >img , .semail >img, .mnom >img{
+ float: left; margin-top: 7px;
+}
+#wrapper2 .contact .mnom::after{
+    content:'Josue Kula';
+    margin-left:7px; 
+    font-family: 'Josefine',sans-serif;
+    font-size:14px; color:#B3B3B3;
+}
+#wrapper2 .contact .place::after{
+    content:'Austin, Texas';
+    margin-left:4px; 
+    font-family: 'Josefine',sans-serif;
+    font-size:14px; color:#B3B3B3;
+}
+#wrapper2 .contact .semail::after{
+    content:'josh.kula@outlook.com';
+    font-family: 'Josefine',sans-serif;
+    margin-left: 7px;
+    font-size: 14px; color:#B3B3B3;
+}
+#Learntech .yeswecan{ 
+          position:relative;
+          padding-top: -4px;
+          width:107px; line-height: 30px;
+          left: 0; top:152px; color:white; 
+          text-align: center;
+          background: url(../wImages/chatme.png) no-repeat;
+          font-family: 'Courier new',Arial;
+          font-size:12px;
+}
