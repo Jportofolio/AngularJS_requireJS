@@ -20,7 +20,7 @@ define([],
                 //controller: 'aboutMeCtrl'
             }).
             when('/contact',{
-                templateUrl: 'wpages/myblog.html',
+                templateUrl: 'wpages/contact.html',
                 controller:'contactCtrl',
                 controllerAs: 'c'
             }).
