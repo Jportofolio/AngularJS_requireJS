@@ -21,6 +21,7 @@ and open the template in the editor.
 body{
     padding:0;
     margin: 0;
+    height:100%; width: 100%;
 }
 #bnavi{
     width:100%; 
@@ -91,14 +92,16 @@ header #smHeader{
 #smHeader .socialm .others >img{margin:3px; cursor: pointer;}
 header #squareback{
     height: 209px;
-    background-position:left;
-    width:100%;
+    width:100%; 
+   
 }
 
 #squareback .mdetails{
     width: 960px;
     height:209px;
-    margin:0px auto; 
+    
+    margin:0px auto;
+    background: url("../wImages/bluesquare.png") no-repeat left top;
     
  
 }
@@ -237,18 +240,13 @@ and open the template in the editor.
                    line-height: 38px; vertical-align: middle;
                    }
 
-#middle ul{padding: 0; width: 400px; margin: 0; position: relative;}
+#middle ul{padding: 0; width: 500px; margin: 0; position: relative;}
 #middle ul li {
-              font-family: 'centabel',arial;
-              float: left;
-              color:white; list-style: none;
-              line-height: 40px;
+              list-style: none;
               }
 #middle ul li img{ float:left; display:block;
-                margin-right: 7px; 
-                margin-top:1px; }
-#middle ul li a { text-decoration: none; display: block; margin-left: 8px;
-                 color: green; width: 230px; float: right;}
+               ; }
+#middle ul li a { text-decoration: none;}
 
 /*This is the Great Container*/
 
@@ -324,7 +322,7 @@ and open the template in the editor.
 /* This is the Footer */
 footer{
     width:100%; background-color:white;
-    height: 255px;
+    height: 255px; display: block;
     border-bottom: 2px solid #666666;
 }
 footer #wrapper2{

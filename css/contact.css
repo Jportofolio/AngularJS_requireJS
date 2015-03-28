@@ -42,10 +42,10 @@ and open the template in the editor.
     padding-top:1.0em;
    
 }
-#cWrapper .container .setholer form dl dd{
+#cWrapper .container .setholer form dl dt{
     font-family: 'Myriadpro',Arial;
     font-size: 0.9em;
-    margin-bottom: 3px;
+    margin:2px 1px;
     
 }
 #cWrapper .container .setholer form input[type="text"],
