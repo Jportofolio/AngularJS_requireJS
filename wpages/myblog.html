@@ -27,17 +27,18 @@ and open the template in the editor.
     </head>
     <body>
         <div id="cWrapper" onload="initialize()">
-            <div class="doomi">
+            <div id="doomi">
                 this is the dooming
             </div>
         </div>
         <style type="text/css">
-      html, body, #cWrapper { height: 100%; margin: 0; padding: 0; z-index: 2;}
-      .doomi{
-          display: block;
+      html, body, #cWrapper { height: 100%; margin: 0; padding: 0;}
+      #doomi{
+          position:absolute;
+          top:10px;
           width:300px;
           height: 300px;
-          z-index: 20;
+          z-index: 100;
           background-color: #2094CE;
       }
     </style>
