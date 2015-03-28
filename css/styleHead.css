@@ -153,6 +153,7 @@ header #squareback{
     font-family: 'Myriadpro',vernada;
     font-size: 15px;
 }
+ #cWrapper { height: 100%; margin: 0; padding: 0;}
 /* this is the style for container*/
 
 /*
