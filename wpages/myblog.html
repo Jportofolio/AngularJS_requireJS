@@ -49,12 +49,14 @@ and open the template in the editor.
         var map = new google.maps.Map(document.getElementById('cWrapper'),
             mapOptions);
        //Setting the marker for
+       var image ='wImages/jlocation.png';
        jmarker = new google.maps.Marker({
            map:map,
            draggable: false,
            title: 'I am here',
            animation: google.maps.Animation.DROP,
-           position: jaddress
+           position: jaddress,
+           icon : image
        });
        //google.maps.event.addListener(jmarker,'click',toggleBounce)
        //Associting the stype map with the mapTypeId
