@@ -1,4 +1,4 @@
- <div id="cWrapper">
+<div id="cWrapper" onload="initialize()">
      <style scoped type="text/css">
           @import url("css/contact.css");
      </style>
@@ -69,7 +69,7 @@
                                 <span ng-show="kcontact.organiz.$dirty && kcontact.organiz.$error.minlength">Too short</span>
                             </dd>
                             <dt>Comments</dt>
-                            <dd><textarea cols="47" 
+                            <dd><textarea cols="44" 
                                           name="comment" 
                                           rows="5" 
                                           ng-model="tokens.comment"

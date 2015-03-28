@@ -42,15 +42,15 @@ and open the template in the editor.
     font-weight: 600;
     color: #333333;
 }
-#abtwrapper .jdescritp .leftdescript pre{
+#abtwrapper .jdescritp .leftdescript p > pre{
     margin-top: 0px;
-    color: #B3B3B3;
-    font-family: 'Myriadpro', arial;
+    color: #29ABE2;
+    font-family: 'Myriadpro', Arial;
     font-size: 0.9em;
 }
 #abtwrapper .jdescritp .righdecript {
   float: right;
-  height: 303px;
+  height: 310px;
   width: 750px;
   border-left: 4px solid #808080;
   padding-left: 17px; padding-right: 6px;
@@ -70,6 +70,6 @@ and open the template in the editor.
     src: url('Myriadpro.woff') format('woff');
 }
 @font-face{
-    font-family: vrinda;
-    src: url('Vrinda.woff') format('woff');
+    font-family: Shruti;
+    src: url('Shruti.woff') format('woff');
 }
