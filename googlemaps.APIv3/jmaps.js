@@ -33,6 +33,7 @@
          var mapOptions = {
           center:jaddress ,
           zoom: 15,
+          disableDefaultUI: true,
           mapTypeControlOptions :{
               mapTypeIds: [google.maps.MapTypeId.ROADMAP,'map_Style'] 
           }
