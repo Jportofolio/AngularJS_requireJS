@@ -23,9 +23,6 @@ body{
     margin: 0;
     height:100%; width: 100%;
 }
-#greatdiv{width:100%; 
-          height: 100%;
-          background-color: #333333;}
 #bicong .ng-enter, #bigcong .ng-leave {
     -webkit-transition:width 2s, height 2s, background-color 2s;
     transition: width 2s, height 2s, background-color 2s; opacity: 0;
@@ -63,7 +60,6 @@ body{
 
 header{display:block;
     width:100%; background-color:#2E2D3F;
-    z-index: 30;
     color: white; 
     height:auto; }
 header #smHeader{
@@ -182,20 +178,19 @@ and open the template in the editor.
  Article{
   background-color:#29ABE2;
   padding: 0; margin: 0;
-  z-index: 30;
 
   }
 #wrapper{
     width:100%;
     height: 340px;
-    z-index: 30;
+ 
 }
 
 #container{
     width: 960px;
     height: 340px;
     margin: 0px auto; 
-   
+
      
 }
 #container .state, .devbox{
@@ -242,7 +237,7 @@ and open the template in the editor.
 }
 /* This is the MIDDLE LINE FOR TRENDING LINK*/
 #middle{ width:100%; margin: 0; padding: 0;
-         height:40px; z-index: 20;
+         height:40px;
          background-color: #2E2D3F;
         }
 #middle .trending{ margin: 0px auto; 
@@ -265,7 +260,6 @@ and open the template in the editor.
 
 #wrapper1{ width: 100%; 
            height: 300px; 
-           z-index: 20;
            background-color: white;}
 #wrapper1 #branch{
     width: 960px; 
@@ -273,7 +267,7 @@ and open the template in the editor.
     height:inherit; 
 }
 #branch .Myblog, .portfolio, .aboutme{
-    display:cell-table; z-index: 19;
+    display:cell-table;
     height: 200px; float:right;
     margin-top: 20px;
     width: 320px;  text-align: center;
@@ -306,7 +300,6 @@ and open the template in the editor.
 #Learntech{
     width:100%;
     height:174px;
-    z-index: 19;
     background-color: #2E2D3F;
     border-top: 3px solid #2094CE;
 }
@@ -336,7 +329,6 @@ and open the template in the editor.
 #techwrapper .learnmore > .techimg img{cursor:pointer;}
 /* This is the Footer */
 footer{
-    z-index: 30;
     width:100%; background-color:white;
     height: 255px; display: block;
     border-bottom: 2px solid #666666;
