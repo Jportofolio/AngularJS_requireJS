@@ -9,9 +9,6 @@ and open the template in the editor.
         <title>J_KULA</title>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-        <script type="text/javascript"
-      src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyB-hQRMh-14jafG3yTMmf1ZRKVLqGOkce8">
-    </script>
         <script type="text/javascript" data-main="scripts/main.js" src="scripts/require.js"></script>
          <link rel="stylesheet" href="../css/styleHead.css"/>
          <link href="css/aboutme.css" rel="stylesheet" type="text/css"/>
@@ -126,6 +123,9 @@ and open the template in the editor.
                </div>
            </div>  
        </footer>
+          <script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyB-hQRMh-14jafG3yTMmf1ZRKVLqGOkce8">
+    </script>
     <script type="text/javascript">
       function initialize() {
           var jmarker;
