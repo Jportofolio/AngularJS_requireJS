@@ -9,12 +9,16 @@ and open the template in the editor.
         <title>J_KULA</title>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyB-hQRMh-14jafG3yTMmf1ZRKVLqGOkce8">
+    </script>
         <script type="text/javascript" data-main="scripts/main.js" src="scripts/require.js"></script>
          <link rel="stylesheet" href="../css/styleHead.css"/>
          <link href="css/aboutme.css" rel="stylesheet" type="text/css"/>
          <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Josefin+Slab" />
     </head>
-    <body style="margin: 0; padding: 0;"> 
+    <body style="margin: 0; padding: 0;">
+        <div id="greatdiv" onload="initialize()">  
         <header ng-controller="HeaderCtrl as hd">
              <div id="smHeader">
                  <div class="socialm">
@@ -122,5 +126,59 @@ and open the template in the editor.
                </div>
            </div>  
        </footer>
-    </body>
+    <script type="text/javascript">
+      function initialize() {
+          var jmarker;
+          var jaddress = new google.maps.LatLng(30.23384,-97.73093);
+          //map cordinates
+          //var mapcord = { lat: 30.23384, lng: -97.73093};
+         //mapStyle Array
+         var mapstyle = [
+                            {
+                             "stylers": [
+                              { "hue": "#0055ff" },
+                             { "lightness": 35 }
+                            ]
+                                 },{
+                                "featureType": "road.local",
+                                "elementType": "labels.icon",
+                                "stylers": [
+                                 { "hue": "#0055ff" },
+                            { "saturation": -48 }
+                                ]
+                                },{
+                                }
+                            ];
+                            
+    //Creating the style goes here
+    var StyleMap = new google.maps.StyledMapType(mapstyle,{name : "Mystyled Maped"});
+    //Creating the map Object                        
+         var mapOptions = {
+          center:jaddress ,
+          zoom: 15,
+          mapTypeControlOptions :{
+              mapTypeIds: [google.maps.MapTypeId.ROADMAP,'map_Style'] 
+          }
+        };
+        var map = new google.maps.Map(document.getElementById('greatdiv'),
+            mapOptions);
+       //Setting the marker for
+       var image ='../wImages/jlocation1.png';
+       jmarker = new google.maps.Marker({
+           map:map,
+           draggable: false,
+           title: 'I am here',
+           animation: google.maps.Animation.DROP,
+           position: jaddress,
+           icon : image
+       });
+       //google.maps.event.addListener(jmarker,'click',toggleBounce)
+       //Associting the stype map with the mapTypeId
+       map.mapTypes.set('map_Style',StyleMap);
+       map.setMapTypeId('map_Style');
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+     </div>
+    </body> 
 </html>
