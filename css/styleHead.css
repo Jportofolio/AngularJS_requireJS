@@ -58,7 +58,8 @@ body{
              margin-right: 11px;}
 /* Style sheet for the header*/
 
-header{display:block;
+header{display:block; 
+       z-index: 30;
     width:100%; background-color:#2E2D3F;
     color: white; 
     height:auto; }

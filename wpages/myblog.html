@@ -12,14 +12,27 @@ and open the template in the editor.
         <script type="text/javascript"
       src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyB-hQRMh-14jafG3yTMmf1ZRKVLqGOkce8"></script>
       <script src="../googlemaps.APIv3/jmaps.js" type="text/javascript"></script>
-    
+     <link rel="stylesheet" href="../css/styleHead.css"/>
     </head>
-    <body> <div id="doomi">
-                this is the dooming
-            </div>
-        <div id="cWrapper" onload="initialize()">
-           
-        </div>
+    <body>
+          <header ng-controller="HeaderCtrl as hd">
+             <div id="smHeader">
+                 <div class="socialm">
+                     <div class="github">
+                         <img ng-click="hd.openrepo()" src="../wImages/sgithub.png"/>
+                        <p>Public Repo...</p> 
+                     </div>
+                         
+                     <div class="others">
+                         <img ng-click="hd.linkedin()" src="../wImages/slinkedin.png"/>
+                         <img ng-click="hd.gplus()" src="../wImages/sgplus.png"/>
+                         <img ng-click="hd.faceme()" src="../wImages/sface.png"/>
+                         <img ng-click="hd.twitt()" src="../wImages/stwitter.png"/>
+                     </div>
+                 </div>
+            </div> 
+          </header>
+        <div id="cWrapper" onload="initialize()"></div>
         <style type="text/css">
       html, body, #cWrapper { height: 100%; margin: 0; padding: 0;}
       #doomi{
