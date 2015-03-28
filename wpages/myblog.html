@@ -16,7 +16,7 @@ and open the template in the editor.
       function initialize() {
           
           //map cordinates
-          var mapcord = { lat: 30.23384, lng: -97.73093};
+          //var mapcord = { lat: 30.23384, lng: -97.73093};
          //mapStyle Array
          var mapstyle = [
                             {
@@ -39,7 +39,7 @@ and open the template in the editor.
     var StyleMap = new google.maps.StyledMapType(mapstyle,{name : "Mystyled Maped"});
     //Creating the map Object                        
          var mapOptions = {
-          center: mapcord,
+          center: new google.maps.LatLng(30.23384,-97.73093),
           zoom: 15,
           mapTypeControlOptions :{
               mapTypeId: [google.maps.MapTypeId.ROADMAP,'map_Style'] 
@@ -51,7 +51,7 @@ and open the template in the editor.
        map.mapTypes.set('map_Style',StyleMap);
        map.setMapTypeId('map_Style');
       }
-      google.maps.event.addDomListener(document, 'load', initialize);
+      google.maps.event.addDomListener(window, 'load', initialize);
     </script>
     </head>
     <body> <div id="doomi">
