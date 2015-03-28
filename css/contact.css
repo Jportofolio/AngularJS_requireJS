@@ -12,10 +12,17 @@ and open the template in the editor.
     margin:0;
     padding:0;
 }
+#maps{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
 #cWrapper{
     width: 100%;
     height:552px;
-    background-color: #808080;
+    z-index: 20;
+    background: transparent;
+   
 }
 
 #cWrapper .container{
