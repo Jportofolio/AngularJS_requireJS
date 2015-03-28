@@ -14,15 +14,44 @@ and open the template in the editor.
     </script>
     <script type="text/javascript">
       function initialize() {
-        var mapOptions = {
-          center: { lat: 30.23384, lng: -97.73093},
+          
+          //map cordinates
+          var mapcord = { lat: 30.23384, lng: -97.73093};
+         //mapStyle Array
+         var mapstyle = [
+                            {
+                             "stylers": [
+                              { "hue": "#0055ff" },
+                             { "lightness": 35 }
+                            ]
+                                 },{
+                                "featureType": "road.local",
+                                "elementType": "labels.icon",
+                                "stylers": [
+                                 { "hue": "#0055ff" },
+                            { "saturation": -48 }
+                                ]
+                                },{
+                                }
+                            ];
+                            
+    //Creating the style goes here
+    var StyleMap = new google.maps.StyledMapType(mapstyle,{name : "Mystyled Maped"});
+    //Creating the map Object                        
+         var mapOptions = {
+          center: mapcord,
           zoom: 15,
-          mapTypeId: google.maps.MapTypeId.ROADMAP
+          mapTypeControlOptions :{
+              mapTypeId: [google.maps.MapTypeId.ROADMAP,'map_Style'] 
+          }
         };
         var map = new google.maps.Map(document.getElementById('cWrapper'),
             mapOptions);
+       //Associting the stype map with the mapTypeId
+       map.mapTypes.set('map_Style',StyleMap);
+       map.setMapTypeId('map_Style');
       }
-      google.maps.event.addDomListener(window, 'load', initialize);
+      google.maps.event.addDomListener(document, 'load', initialize);
     </script>
     </head>
     <body> <div id="doomi">
