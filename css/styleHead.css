@@ -59,14 +59,14 @@ html,body{
 /* Style sheet for the header*/
 
 header{display:block; 
-       z-index: 30;
+      
     width:100%; background-color:#2E2D3F;
     color: white; }
  #smHeader{
     width:100%; 
     height: 40px;
     background-color: #333333;
-    
+     z-index: 30;
 }    
 
 #smHeader .socialm{
