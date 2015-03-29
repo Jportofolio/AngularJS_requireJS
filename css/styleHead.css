@@ -61,8 +61,7 @@ html,body{
 header{display:block; 
        z-index: 30;
     width:100%; background-color:#2E2D3F;
-    color: white; 
-    height:auto; }
+    color: white; }
 header #smHeader{
     width:100%; 
     height: 40px;
