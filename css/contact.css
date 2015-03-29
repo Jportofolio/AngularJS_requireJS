@@ -15,7 +15,7 @@ and open the template in the editor.
 #maps{
     height: 100%;
     width: 100%;
-    background-color: black;
+    background-color: transparent;
 }
 #cWrapper1{
     position:absolute;
