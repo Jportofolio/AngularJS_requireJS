@@ -15,21 +15,49 @@ and open the template in the editor.
      <link rel="stylesheet" href="../css/styleHead.css"/>
     </head>
     <body>
-          <div id="smHeader">
+          <header ng-controller="HeaderCtrl as hd">
+             <div id="smHeader">
                  <div class="socialm">
                      <div class="github">
-                         <img src="../wImages/sgithub.png"/>
+                         <img ng-click="hd.openrepo()" src="../wImages/sgithub.png"/>
                         <p>Public Repo...</p> 
                      </div>
                          
                      <div class="others">
-                         <img src="../wImages/slinkedin.png"/>
-                         <img src="../wImages/sgplus.png"/>
-                         <img src="../wImages/sface.png"/>
-                         <img src="../wImages/stwitter.png"/>
+                         <img ng-click="hd.linkedin()" src="../wImages/slinkedin.png"/>
+                         <img ng-click="hd.gplus()" src="../wImages/sgplus.png"/>
+                         <img ng-click="hd.faceme()" src="../wImages/sface.png"/>
+                         <img ng-click="hd.twitt()" src="../wImages/stwitter.png"/>
                      </div>
                  </div>
             </div> 
+            <div id="bnavi" >
+            <nav> 
+                <ul>
+                    <li>
+                <a href="#aboutme"> <img src="../wImages/0-saboutme.png"/>About J.kula</a></li>
+                <li><a href="#"><img src="../wImages/4-smyblog.png"/>MyBlog</a></li>
+                <li><a href="#"><img src="../wImages/3sportfolio.png"/>Portfolio</a></li>
+                <li><a href="#contact"><img src="../wImages/1-contact.png"/>Contact</a></li>
+            </ul>
+            </nav>
+           
+        </div>
+            <!--Square Background -->
+            <div id="squareback">
+                <div class="mdetails">
+                    <div class="mimage">
+                        <img ng-click="hd.home()" alt="Jkula profile Picture" src="../wImages/Jkula_001.png"/>
+                        
+                    </div>
+                    <div  class="mprof">
+                        <p>JOSUE KULA</p>
+                        <p>Software Developer</p>
+                        <p>Josh.kula@outlook.com</p>
+                  </div>
+                </div>     
+            </div>
+        </header>
         <div id="cWrapper" onload="initialize()"></div>
     </body>
 </html>
