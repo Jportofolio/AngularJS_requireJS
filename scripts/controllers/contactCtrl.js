@@ -45,6 +45,6 @@ angular.module('jkula',[])
                        $scope.tokens = {};
                    });
                 };
-            }
+            };
             contactCtrl.$inject = ['$scope','$q','$http','$rootScope',contactCtrl];
  
