@@ -50,6 +50,7 @@ and open the template in the editor.
     padding-left:1.0em;
     -moz-opacity:0.9;
     opacity: 0.9;
+    z-index:22;
     padding-top:1.0em;
    
 }
