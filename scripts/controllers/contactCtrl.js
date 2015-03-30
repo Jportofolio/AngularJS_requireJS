@@ -10,9 +10,7 @@ angular.module('jkula',[])
         .run(function($rootScope){
                 $rootScope.endPoint = 'http://jkula';
             })
-        .controller('contactCtrl',contactCtrl);
-        
-        var contactCtrl = function($scope,$q,$http,$rootScope){
+        .controller('contactCtrl',['$scope','$q','$http','$rootScope',function($scope,$q,$http,$rootScope){
               this.status = 'submit';
                $scope.tokens = {
                     mail: '',
@@ -45,6 +43,5 @@ angular.module('jkula',[])
                        $scope.tokens = {};
                    });
                 };
-            };
-            contactCtrl.$inject = ['$scope','$q','$http','$rootScope'];
+            }]);
  
