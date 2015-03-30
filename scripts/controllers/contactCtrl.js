@@ -8,7 +8,7 @@
      
 angular.module('jkula',[])
         .run(function($rootScope){
-                $rootScope.endPoint = 'http://jkula';
+                $rootScope.endPoint = 'http://jkula.azurewebsites.net';
             })
         .controller('contactCtrl',['$scope','$q','$http','$rootScope',function($scope,$q,$http,$rootScope){
               this.status = 'submit';
