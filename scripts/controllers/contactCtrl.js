@@ -12,7 +12,7 @@ angular.module('jkula',[])
             })
         .controller('contactCtrl',contactCtrl);
         
-           function contactCtrl($scope,$q,$http,$rootScope){
+        var contactCtrl = function($scope,$q,$http,$rootScope){
               this.status = 'submit';
                $scope.tokens = {
                     mail: '',
