@@ -7,7 +7,6 @@ define([
         'container',
         'config',
         'headerCtrl',
-        'contactCtrl',
         'homeCtrl'],
 
   function(
@@ -17,12 +16,11 @@ define([
            contactCtrl,
            homeCtrl){
              var jkula = angular.module('jkula',
-            ['ngRoute','ngAnimate']);
+            ['ngRoute','ui.bootstrap']);
             jkula.config(config);
             jkula.directive('wrapper',container); 
             jkula.controller('HeaderCtrl',headerCtrl);
             jkula.controller('homeCtrl',homeCtrl);
-            jkula.controller('contactCtrl',contactCtrl);
             jkula.controller('aboutMeCtrl',function(){
                      var abt = this;
                     abt.hist ='hist';
