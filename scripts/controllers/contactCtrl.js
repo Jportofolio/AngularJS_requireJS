@@ -46,5 +46,5 @@ angular.module('jkula',[])
                    });
                 };
             };
-            contactCtrl.$inject = ['$scope','$q','$http','$rootScope',contactCtrl];
+            contactCtrl.$inject = ['$scope','$q','$http','$rootScope'];
  
