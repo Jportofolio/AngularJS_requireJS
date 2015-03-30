@@ -21,13 +21,14 @@ and open the template in the editor.
     position:absolute;
     width: 100%;
     height:552px;
-    z-index: 20;
+    z-index:10;
     background: transparent;
    
 }
 
 #cWrapper1 .container{
     margin:0 auto;
+    z-index:inherit;
     width:960px; vertical-align: middle;
     height: 530px; 
 }
@@ -42,6 +43,7 @@ and open the template in the editor.
     width:50%;
     height:514px;
     float:left;
+    z-index: 20;
     background-color: #ffffff;
 }
 #cWrapper1 .container .setholer form{
