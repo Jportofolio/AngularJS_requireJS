@@ -39,7 +39,8 @@ and open the template in the editor.
     -moz-border-radius: 7px;
     //border:1px solid #DDDDDD;
     box-sizing: border-box;
-    width:50%;
+    width:50%; opacity: 0.5;
+    -moz-opacity:0.5;
     height:514px;
     float:left;
     background-color: #ffffff;
