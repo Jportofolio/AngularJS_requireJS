@@ -31,9 +31,7 @@ and open the template in the editor.
     width:960px; vertical-align: middle;
     height: 530px; 
 }
-.setholer{
-    position:absolute;
-    display: block;
+#cWrapper1 .container .setholer{
     border-radius:7px;
     padding: 0;
     margin-top: 21px;
@@ -43,6 +41,7 @@ and open the template in the editor.
     box-sizing: border-box;
     width:50%;
     height:514px;
+    float:left;
     background-color: #ffffff;
 }
 #cWrapper1 .container .setholer form{
