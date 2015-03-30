@@ -7,6 +7,9 @@
 
      
 angular.module('jkula',[])
+        .run(function($rootScope){
+                $rootScope.endPoint = 'http://jkula';
+            })
         .controller('contactCtrl',contactCtrl);
         
            function contactCtrl($scope,$q,$http,$rootScope){
