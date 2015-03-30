@@ -244,7 +244,7 @@ textarea.ng-dirty.ng-valid{
              margin-top: 6px;
              margin-right: 11px;}
 
-#contactnav .others{float:right; height: 40px; padding: 3px;}
+#contactnav .others{float:right; line-height: 40px; padding-top: 2px;}
 
 @import "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css";
 @import "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css"
