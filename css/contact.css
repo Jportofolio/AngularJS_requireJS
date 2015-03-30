@@ -211,5 +211,36 @@ textarea.ng-dirty.ng-valid{
     font-family: Shruti;
     src: url('Shruti.woff') format('woff');
 }
+#contactnav{
+    width:100%; 
+    height: 40px;
+    z-index: 50;
+   border-top: 3px solid #2094CE;
+    background-color:#333333;
+}
+#contactnav nav{margin:0px auto; width: 960px;}
+#contactnav ul{padding:0; margin: 0; line-height:40px;}
+#contactnav ul li{
+        position:relative; list-style: none;
+        line-height:40px; display: block;
+        float:left;
+      }
+#contactnav ul li a{ height: 40px;  
+         display: block; 
+         width: 150px; 
+         font-family:'Myriadpro',Arial;
+         font-size: 14px;
+         text-decoration: none; 
+         color: #ccc; }
+#contactnav ul li a:hover{ color: #29ABE2; 
+                   }
+#contactnav ul li a >img{
+              float:left; 
+             line-height: 40px; 
+             margin-top: 6px;
+             margin-right: 11px;}
+
+
+
 @import "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css";
 @import "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css"
