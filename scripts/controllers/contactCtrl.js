@@ -6,8 +6,8 @@
 
 
      
- define([],
-    function(){
+angular.module('jkula',[])
+        .controller('contactCtrl',contactCtrl);
         
            function contactCtrl($scope,$q,$http,$rootScope){
               this.status = 'submit';
@@ -43,6 +43,5 @@
                    });
                 };
             }
-            return ['$scope','$q','$http','$rootScope',contactCtrl];
+            contactCtrl.$inject = ['$scope','$q','$http','$rootScope',contactCtrl];
  
-});
