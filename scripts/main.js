@@ -20,7 +20,6 @@
         "headerCtrl" : "../scripts/controllers/headerCtrl",
         //controllers
         "homeCtrl" : "../scripts/controllers/homeCtrl",
-        "contactCtrl" : "../scripts/controllers/contactCtrl",
         "ModalObject" : "../scripts/controllers/ModalObject",
         "core" : "../scripts/controllers/core"
     },
@@ -49,15 +48,11 @@
            deps : ['angular','angular-animate','container','angularoute','bootstrap',
         'config',
         'headerCtrl',
-        'contactCtrl',
         'ModalObject',
         'homeCtrl'] 
         },
         "headerCtrl" : {
             deps : ['angular']
-        },
-        "contactCtrl" : {
-            deps : ['angular','angularoute','ModalObject']
         },
         "homeCtrl" : {
             deps : ['angular']
