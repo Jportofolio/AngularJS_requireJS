@@ -16,12 +16,12 @@ and open the template in the editor.
      <link href="../css/contact.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-             <div id="cheader">
-                 <div id="contactnav" >
-            <nav> 
+       <div id="cheader">
+         <div id="contactnav" >
+            <div class="holder">  
+              <nav> 
                 <ul>
-                    <li>
-                <a href="#aboutme"> <img src="../wImages/0-saboutme.png"/>About J.kula</a></li>
+                    <li><a href="#aboutme"> <img src="../wImages/0-saboutme.png"/>About J.kula</a></li>
                 <li><a href="#"><img src="../wImages/4-smyblog.png"/>MyBlog</a></li>
                 <li><a href="#"><img src="../wImages/3sportfolio.png"/>Portfolio</a></li>
             </ul>
@@ -31,9 +31,10 @@ and open the template in the editor.
                          <img ng-click="hd.gplus()" src="../wImages/sgplus.png"/>
                          <img ng-click="hd.faceme()" src="../wImages/sface.png"/>
                          <img ng-click="hd.twitt()" src="../wImages/stwitter.png"/>
+            </div>
            </div>
-        </div>
-            </div> 
+        </div>     
+      </div> 
         <div id="cWrapper1">
             <div class="container">
                 <div class="setholer" ng-controller="contactCtrl as c">

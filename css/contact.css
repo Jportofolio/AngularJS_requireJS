@@ -218,6 +218,10 @@ textarea.ng-dirty.ng-valid{
    border-top: 3px solid #2094CE;
     background-color:#333333;
 }
+#contactnav .holder{
+    margin:0px auto;
+    width: 960px;
+}
 #contactnav nav{margin:0px auto; width: 960px;}
 #contactnav ul{padding:0; margin: 0; line-height:40px;}
 #contactnav ul li{
