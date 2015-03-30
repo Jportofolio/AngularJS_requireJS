@@ -32,7 +32,7 @@
     //Creating the map Object                        
          var mapOptions = {
           center:jaddress ,
-          zoom: 15,
+          zoom: 11,
           disableDefaultUI: true,
           mapTypeControlOptions :{
               mapTypeIds: [google.maps.MapTypeId.ROADMAP,'map_Style'] 
