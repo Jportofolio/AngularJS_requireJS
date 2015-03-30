@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html ng-app="jkula">
+    <head>
+        <title>Contact JOSUE_KULA</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyB-hQRMh-14jafG3yTMmf1ZRKVLqGOkce8"></script>
+      <script src="../googlemaps.APIv3/jmaps.js" type="text/javascript"></script>
+     <link rel="stylesheet" href="../css/styleHead.css"/>
+     <link href="../css/contact.css" rel="stylesheet" type="text/css"/>
+     <script src="../scripts/angular/angular.js" type="text/javascript"></script>
+    </head>
+    <body>
+       <div id="cheader">
+           <script src="../scripts/controllers/contactCtrl.js" type="text/javascript"></script>
+         <div id="contactnav" >
+            <div class="holder">  
+              <nav> 
+                <ul>
+                    <li><a href="#aboutme"> <img src="../wImages/0-saboutme.png"/>About J.kula</a></li>
+                <li><a href="#"><img src="../wImages/4-smyblog.png"/>MyBlog</a></li>
+                <li><a href="#"><img src="../wImages/3sportfolio.png"/>Portfolio</a></li>
+            </ul>
+            </nav>
+           <div class="others">
+                         <img  src="../wImages/slinkedin.png"/>
+                         <img src="../wImages/sgplus.png"/>
+                         <img src="../wImages/sface.png"/>
+                         <img src="../wImages/stwitter.png"/>
+            </div>
+           </div>
+        </div>     
+      </div> 
+        <div id="cWrapper1">
+            <div class="container">
+                <div class="setholer" ng-controller="contactCtrl as c">
+                    <form method="post" ng-submit="c.submit()" name="kcontact" id="contactk" novalidate>
+                        <dl>
+                            <dt>Email Address</dt>
+                            
+                            <dd>
+                                <input type="email" 
+                                       name="email" 
+                                       id="email" 
+                                       ng-model="tokens.mail" 
+                                       size="25"
+                                       required>
+                                <span ng-show="kcontact.email.$dirty && kcontact.fname.$required"><sup>*</sup></span>
+                                
+                            </dd>
+                            <dt>First Name</dt>
+                            <dd><input 
+                                    type="text" 
+                                    name="fname" 
+                                    id="fname" 
+                                    ng-model="tokens.fname" 
+                                    size="23" 
+                                     ng-maxlength="20"
+                                    ng-minlength="4" required>
+                              <span ng-show="kcontact.fname.$dirty && kcontact.fname.$error.maxlength">Too long</span>
+                                <span ng-show="kcontact.fname.$dirty && kcontact.fname.$error.minlength">Too short</span>
+                            </dd>
+                            <dt>Last Name</dt>
+                            <dd><input 
+                                    type="text" 
+                                    name="lname" 
+                                    id="lname" 
+                                    size="25" 
+                                    ng-model="tokens.lname"
+                                    ng-maxlength="23"
+                                    ng-minlength="4" required>
+                                <span ng-show="kcontact.lname.$dirty && kcontact.lname.$error.maxlength">Too long</span>
+                                <span ng-show="kcontact.lname.$dirty && kcontact.lname.$error.minlength">Too short</span>
+                            </dd>
+                            <dt>Title</dt>
+                            <dd>
+                                <input 
+                                    type="text" 
+                                    name="title" 
+                                    id="title" 
+                                    size="25" 
+                                    ng-model="tokens.title"
+                                    ng-pattern="/a*/"
+                                    ng-maxlength="23"
+                                    ng-minlength="4" required>
+                                <span ng-show="kcontact.title.$dirty && kcontact.title.$error.maxlength">Too long</span>
+                                <span ng-show="kcontact.title.$dirty && kcontact.title.$error.minlength">Too short</span>
+                                
+                            </dd>
+                            <dt>Organization</dt>
+                            <dd><input type="text" 
+                                       name="organiz" 
+                                       id="organiz" 
+                                       size="23" 
+                                       ng-model="tokens.organiz"
+                                       ng-maxlength="23" 
+                                       ng-minlength="4" required>
+                                <span ng-show="kcontact.organiz.$dirty && kcontact.organiz.$error.maxlength">Too Long</span>
+                                <span ng-show="kcontact.organiz.$dirty && kcontact.organiz.$error.minlength">Too short</span>
+                            </dd>
+                            <dt>Comments</dt>
+                            <dd><textarea cols="44" 
+                                          name="comment" 
+                                          rows="5" 
+                                          ng-model="tokens.comment"
+                                          wrap="hard" 
+                                          required>
+                                              
+                                </textarea></dd>
+                            <dd>
+                                <p>
+                                    <input type="submit"
+                                           value="submit"
+                                           ng-click="c.send(); kcontact.$setPristine()"
+                                           ng-disabled="kcontact.$invalid">
+                                   <button 
+                                       ng-click="c.resetform();"
+                                       ng-disabled="kcontact.$invalid">Cancel</button>
+                                </p> 
+                            </dd>
+                        </dl> 
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div id="cWrapper" onload="initialize()"></div>
+    </body>
+</html>
