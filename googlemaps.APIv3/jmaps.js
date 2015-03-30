@@ -7,6 +7,7 @@
     function initialize() {
           var jmarker;
           var jaddress = new google.maps.LatLng(30.23384,-97.73093);
+          var brtnolf = new google.maps.LaLng(30.23157,-97.73350);
           //map cordinates
           //var mapcord = { lat: 30.23384, lng: -97.73093};
          //mapStyle Array
@@ -31,7 +32,7 @@
     var StyleMap = new google.maps.StyledMapType(mapstyle,{name : "Mystyled Maped"});
     //Creating the map Object                        
          var mapOptions = {
-          center:jaddress ,
+          center:brtnolf ,
           zoom: 15,
           disableDefaultUI: true,
           
