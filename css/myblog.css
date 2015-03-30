@@ -9,11 +9,17 @@ and open the template in the editor.
 */
 #Myblog{
     width:100%;
-    height:551px;
+    height:550px;
 }
 #Myblog .blogWrapper{
     margin:0px auto;
     height: inherit;
     width: 960px;
     border:1px solid #29ABE2;
+}
+#Myblog .blogWrapper .centergraph{
+    margin:225px auto;
+    width:400px;
+    height:100px;
+    border:1px solid #666666;
 }
