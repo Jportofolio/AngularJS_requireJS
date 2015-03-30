@@ -39,8 +39,8 @@ and open the template in the editor.
     -moz-border-radius: 7px;
     //border:1px solid #DDDDDD;
     box-sizing: border-box;
-    width:50%; opacity: 0.7;
-    -moz-opacity:0.7;
+    width:50%; opacity: 0.9;
+    -moz-opacity:0.9;
     height:514px;
     float:left;
     background-color: #ffffff;
@@ -49,7 +49,7 @@ and open the template in the editor.
     box-sizing: border-box;
     padding-left:1.0em;
     -moz-opacity:0.9;
-    opacity: 0.9;
+    opacity:1;
     z-index:22;
     padding-top:1.0em;
    
