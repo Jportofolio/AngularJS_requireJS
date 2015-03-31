@@ -6,7 +6,7 @@
 
 define([],
   function(){
-      function footerCtrl(){
+      var footerCtrl = function(){
         var ft = this;
         //technologies part
         ft.html = function(){

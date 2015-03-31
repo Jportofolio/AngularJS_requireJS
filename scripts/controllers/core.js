@@ -28,7 +28,7 @@ define([
             jkula.controller('homeCtrl',homeCtrl);
             jkula.controller('myblogCtrl',myblogCtrl);
             jkula.controller('portfolioCtrl',portfolioCtrl);
-            jkula.controler('footerCtrl',footerCtrl);
+            jkula.controller('footerCtrl',footerCtrl);
             jkula.controller('aboutMeCtrl',function(){
                      var abt = this;
                     abt.hist ='hist';
