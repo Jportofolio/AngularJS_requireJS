@@ -13,7 +13,7 @@
         "jquery" : "../scripts/jquery/jquery",
         "angular" : "../scripts/angular/angular", 
         "bootstrap" : "../scripts/bootstrap/ui-bootstrap-tpls-0.12.1",
-        "angular-animate" : "../scripts/angular/angular-animate",
+        "ngAnimate" : "../scripts/angular/angular-animate",
         "angularoute" : "../scripts/angular/angular-route",
         "container" : "../scripts/modules/container",
         "config"       : "../scripts/modules/config",
@@ -47,7 +47,7 @@
             deps : ['angular','angularoute']
         },
         "core" : {
-           deps : ['angular','angular-animate','bootstrap'] 
+           deps : ['angular','ngAnimate','bootstrap'] 
         },
         "headerCtrl" : {
             deps : ['angular']
