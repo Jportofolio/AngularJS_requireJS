@@ -4,14 +4,30 @@
  * and open the template in the editor.
  */
 
-define([],function(){
-     function footerCtrl(){
+define([],
+  function(){
+      function footerCtrl(){
         var ft = this;
         //technologies part
         ft.html = function(){
-          window.open("")  
+          window.open("http://www.w3.org/html5");  
         };
-        
+        ft.jav = function(){
+            window.open("https://netbeans.org/kb/articles/learn-java.html");
+        };
+        ft.mysql = function(){
+            window.open("https://www.mysql.com");
+        };
+        ft.angulus = function(){
+          window.open("https://angular.io/");
+          
+        };
+        ft.nod = function(){
+          window.open("https://nodejs.org/");  
+        };
+        ft.apache = function(){
+          window.open("http://projects.apache.org/indexes/releases.html");  
+        };
         return ft;
      };
      return footerCtrl;

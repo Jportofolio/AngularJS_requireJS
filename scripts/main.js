@@ -21,7 +21,7 @@
         "homeCtrl" : "../scripts/controllers/homeCtrl",
         "myblogCtrl": "../scripts/controllers/myblogCtrl",
         "portfolioCtrl": "../scripts/controllers/portfolioCtrl",
-        "ModalObject" : "../scripts/controllers/ModalObject",
+        "footerCtrl" : "../scripts/controllers/footerCtrl",
         "core" : "../scripts/controllers/core"
     },
     shim    : {
@@ -58,6 +58,9 @@
             deps: ['angular']
         },
         "portfolioCtrl" : {
+            deps: ['angular']
+        },
+        "footerCtrl" : {
             deps: ['angular']
         }
     }

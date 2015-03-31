@@ -73,18 +73,18 @@ and open the template in the editor.
     </wrapper>
     
      <!-- This is the TECHNOLOGY -->
-       <div id="Learntech">
+     <div id="Learntech" ng-controller="footerCtrl as ft">
            <div class="yeswecan">Learn More</div>
            <div id="techwrapper">
                <!--- LEARN MORE --->
                <div class="learnmore">
                    <div class="techimg">
                        <img alt="Lear more about HTML5" src="../techImage/shtml5.png" />
-                    <img alt="Learn more about Java" src="../techImage/sjava.png" />
-                    <img alt="Learn more about Mysql" src="../techImage/smysql.png" />
-                    <img alt="Learn more about Angularjs" src="../techImage/sangular.png" />
-                    <img alt="Learn more about Nodejs" src="../techImage/snode.png" />
-                    <img alt="Learn more about Apache Server" src="../techImage/sapache.png" />
+                       <img ng-click="ft.jav()" alt="Learn more about Java" src="../techImage/sjava.png" />
+                    <img ng-click="ft.mysql()" alt="Learn more about Mysql" src="../techImage/smysql.png" />
+                    <img ng-click="ft.angulus()" alt="Learn more about Angularjs" src="../techImage/sangular.png" />
+                    <img ng-click="ft.nod()" alt="Learn more about Nodejs" src="../techImage/snode.png" />
+                    <img ng-click="ft.apache()" alt="Learn more about Apache Server" src="../techImage/sapache.png" />
                   </div>
                    
                </div>
