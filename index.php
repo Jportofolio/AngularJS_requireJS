@@ -88,10 +88,10 @@ and open the template in the editor.
            <div id="wrapper2">
                <div id="submenu">
                <ul>
-                   <li><a href="#">About J.kula</a></li>
-                   <li><a href="#">Myblog</a></li>
-                   <li><a href="#">Portfolio</a></li>
-                   <li><a href="#">Contact</a></li>
+                   <li><a href="#aboutme">About J.kula</a></li>
+                   <li><a href="#myblog">Myblog</a></li>
+                   <li><a href="#portfolio">Portfolio</a></li>
+                   <li><a href="wpages/contact.html">Contact</a></li>
                </ul> 
                </div>
                <div id="lastblock">
