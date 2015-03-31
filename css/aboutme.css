@@ -9,6 +9,14 @@ and open the template in the editor.
 */
 /** This is Variables **/
 /*Mixing Goes here*/
+@font-face{
+    font-family: Myriadpro;
+    src: url('Myriadpro.woff') format('woff');
+}
+@font-face{
+    font-family: Shruti;
+    src: url('Shruti.woff') format('woff');
+}
 
 .desciptHeight {
   height: 400px;
@@ -65,11 +73,4 @@ and open the template in the editor.
     font-weight: 400;
     color: #808080;
 }
-@font-face{
-    font-family: Myriadpro;
-    src: url('Myriadpro.woff') format('woff');
-}
-@font-face{
-    font-family: Shruti;
-    src: url('Shruti.woff') format('woff');
-}
+
