@@ -26,7 +26,7 @@ define([],
              }).
               when('/portfolio',{
                   templateUrl : 'wpages/portfolio.html',
-                  controller: 'porfolioCtrl'
+                  controller: 'portfolioCtrl'
               }).
             otherwise({
                 redirectTo:'/home'
