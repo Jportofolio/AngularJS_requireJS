@@ -19,7 +19,7 @@ define([
            myblogCtrl,
            portfolioCtrl){
              var jkula = angular.module('jkula',
-            ['ngRoute','ui.bootstrap']);
+            ['ngRoute','gnAnimate']);
             jkula.config(config);
             jkula.directive('wrapper',container); 
             jkula.controller('HeaderCtrl',headerCtrl);

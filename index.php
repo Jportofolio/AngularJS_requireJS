@@ -114,7 +114,7 @@ and open the template in the editor.
                          <img src="../wImages/stwitter.png"/>
                    </div>
                    <div class="rights">
-                       &COPY; Josue Kula.N
+                       &COPY; Josue Kula.com
                    </div>
                </div>
                <!-- WWW Consortium -->
