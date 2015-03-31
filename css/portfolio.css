@@ -8,32 +8,32 @@ and open the template in the editor.
     Author     : J_kula
 */
 
-#Jportfolio{
+#jportfolio{
     width:100%;
-    height:500px;
+    height:400px;
 }
-#Jportfolio .portWrapper{
+#jportfolio .portWrapper{
     margin:0px auto;
     height: inherit;
     width: 960px;
-    border:1px solid #29ABE2;
+    border:1px solid #ffffff;
 }
-#Jportfolio .portWrapper .centergraph{
-    margin:200px auto;
-    width:500px; text-align:left;
+#jportfolio .portWrapper .centergraph{
+    margin:100px auto;
+    width:500px;
     height:100px;
 }
-#Jportfolio .portWrapper .centergraph table{
+#jportfolio .portWrapper .centergraph table{
     border-collapse: collapse;
     margin-top:10px;
     
 }
-.centergraph table tr td.blogimg{
+#jportfolio .portWrapper .centergraph table tr td.blogimg{
     width: 120px;
     padding-right: 8px;
     border-right:4px solid #29ABE2;
 }
-.centergraph table tr td.descript{
+#jportfolio .portWrapper .centergraph table tr td.descript{
     padding-left:9px;
     font-family:'Arial',sans-serif;
     font-size: 15px;

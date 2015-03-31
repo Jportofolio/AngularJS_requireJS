@@ -25,7 +25,7 @@ define([],
                  controllerAs:'blg'
              }).
               when('/portfolio',{
-                  templateUrl : 'wpages/porfolio.html',
+                  templateUrl : 'wpages/portfolio.html',
                   controller: 'porfolioCtrl'
               }).
             otherwise({

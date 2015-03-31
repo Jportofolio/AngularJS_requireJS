@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-(function(){
+
  require.config({
     appDir : '',
     //baseUrl : './scripts',
@@ -47,11 +47,7 @@
             deps : ['angular','angularoute']
         },
         "core" : {
-           deps : ['angular','angular-animate','container','angularoute','bootstrap',
-        'config',
-        'headerCtrl',
-        'ModalObject',
-        'homeCtrl'] 
+           deps : ['angular','angular-animate','container','angularoute','bootstrap'] 
         },
         "headerCtrl" : {
             deps : ['angular']
@@ -73,4 +69,3 @@
     angular.bootstrap(document, ['jkula']); 
  });
  
- })();
