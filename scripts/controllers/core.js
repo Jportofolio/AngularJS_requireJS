@@ -6,7 +6,6 @@
 define([
         'container',
         'config',
-        'angularAnim',
         'headerCtrl',
         'homeCtrl',
         'myblogCtrl',
@@ -18,10 +17,9 @@ define([
            headerCtrl,
            homeCtrl,
            myblogCtrl,
-           angularAnim,
            portfolioCtrl){
              var jkula = angular.module('jkula',
-            ['ngRoute','ngAnimate']);
+            ['ngRoute','ui.bootstrap']);
             jkula.config(config);
             jkula.directive('wrapper',container); 
             jkula.controller('HeaderCtrl',headerCtrl);
