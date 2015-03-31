@@ -47,7 +47,7 @@
             deps : ['angular','angularoute']
         },
         "core" : {
-           deps : ['angular','angular-animate','container','angularoute','bootstrap'] 
+           deps : ['angular','angular-animate','bootstrap'] 
         },
         "headerCtrl" : {
             deps : ['angular']
