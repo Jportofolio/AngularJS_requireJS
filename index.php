@@ -38,7 +38,7 @@ and open the template in the editor.
                 <a href="#aboutme"> <img src="../wImages/0-saboutme.png"/>About J.kula</a></li>
                 <li><a href="#myblog"><img src="../wImages/4-smyblog.png"/>MyBlog</a></li>
                 <li><a href="#portfolio"><img src="../wImages/3sportfolio.png"/>Portfolio</a></li>
-                <li><a href="#contact"><img src="../wImages/1-contact.png"/>Contact</a></li>
+                <li><a href="wpages/contact.html"><img src="../wImages/1-contact.png"/>Contact</a></li>
             </ul>
             </nav>
            
