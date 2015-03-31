@@ -13,7 +13,7 @@
         "jquery" : "../scripts/jquery/jquery",
         "angular" : "../scripts/angular/angular", 
         "bootstrap" : "../scripts/bootstrap/ui-bootstrap-tpls-0.12.1",
-        "angularAnim" : "../scripts/angular/angular-animate.min",
+        "angularAnim" : "../scripts/angular/angular-animate",
         "angularoute" : "../scripts/angular/angular-route",
         "container" : "../scripts/modules/container",
         "config"       : "../scripts/modules/config",
