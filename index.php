@@ -60,7 +60,16 @@ and open the template in the editor.
         </header>
             
     <wrapper>
-        
+        <div id="Loader">
+            <div class="LoaderWrapper">
+                <div class="centerloader">
+                    <img src="techImage/Jloader.GIF" alt="loader"/>
+                </div>
+            </div>
+            
+        </div>
+    </body>
+</html>
     </wrapper>
     
      <!-- This is the TECHNOLOGY -->
@@ -105,7 +114,7 @@ and open the template in the editor.
                          <img src="../wImages/stwitter.png"/>
                    </div>
                    <div class="rights">
-                       ID : Josue Kulaâ€™s Intellectual property
+                       ID : Josue Kula’s Intellectual property
                    </div>
                </div>
                <!-- WWW Consortium -->

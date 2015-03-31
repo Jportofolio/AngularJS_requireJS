@@ -50,10 +50,10 @@ and open the template in the editor.
     font-weight: 600;
     color: #333333;
 }
-#abtwrapper .jdescritp .leftdescript p > pre{
+#abtwrapper .jdescritp .leftdescript p pre{
     margin-top: 0px;
     color: #29ABE2;
-    font-family: 'Myriadpro', Arial;
+    font-family: 'Myriadpro', monospace;
     font-size: 0.9em;
 }
 #abtwrapper .jdescritp .righdecript {

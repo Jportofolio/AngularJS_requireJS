@@ -9,7 +9,22 @@ and open the template in the editor.
 */
 
 
-
+@font-face{
+    font-family: Myriadpro;
+    src: url('Myriadpro.woff') format('woff');
+}
+@font-face{
+    font-family: centabel;
+    src: url('centabel.woff') format('woff');
+}
+@font-face{
+    font-family: vrinda;
+    src: url('Vrinda.woff') format('woff');
+}
+@font-face{
+    font-family: Nirmalas;
+    src: url('Nirmalas.woff') format('woff');
+}
 
 
 *{
@@ -151,6 +166,24 @@ header #squareback{
     font-family: 'Myriadpro',vernada;
     font-size: 15px;
 }
+/*this is the style for Loader*/
+#Loader{
+    width:100%;
+    height:400px;
+}
+#Loader .LoaderWrapper{
+    margin:0px auto;
+    height: inherit;
+    width: 960px;
+    border:1px solid #ffffff;
+}
+#Loader .LoaderWrapper .centerloader{
+    margin:100px auto;
+    width:139px;
+    height:139px;
+}
+/*End of the Loader*/
+
  #cWrapper { height: 100%; margin: 0;  padding: 0;}
 /* this is the style for container*/
 
@@ -158,22 +191,7 @@ header #squareback{
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
-*/@font-face{
-    font-family: Myriadpro;
-    src: url('Myriadpro.woff') format('woff');
-}
-@font-face{
-    font-family: centabel;
-    src: url('centabel.woff') format('woff');
-}
-@font-face{
-    font-family: vrinda;
-    src: url('Vrinda.woff') format('woff');
-}
-@font-face{
-    font-family: Nirmalas;
-    src: url('Nirmalas.woff') format('woff');
-}
+*/
  
  Article{
   background-color:#29ABE2;
@@ -242,18 +260,23 @@ and open the template in the editor.
         }
 #middle .trending{ margin: 0px auto; 
                    width: 240px; display: block;
-                   line-height: 38px; vertical-align: middle;
+                   line-height: 38px;
+                   font-family:'Arial',sans-serif;
+                   font-size: 14px;
+                   vertical-align: middle;
                    }
 
-#middle ul{padding: 0; width: 500px; margin: 0; position: relative;}
-#middle ul li {
+#middle .trending ul{padding: 0; width: 500px; margin: 0; position: relative;}
+#middle .trending ul li {
               list-style: none;
               width: 450px;
+              color: #fff;
               display:inline-block;
               }
-#middle ul li img{ float:left; 
+#middle .trending ul li img{ float:left; margin:0px 4px; 
                }
-#middle ul li a { text-decoration: none;
+#middle .trending ul li a { text-decoration: none;
+                            color: #66cc00;
                 }
 
 /*This is the Great Container*/
