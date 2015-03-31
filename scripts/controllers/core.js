@@ -21,7 +21,7 @@ define([
            ngAnimate,
            portfolioCtrl){
              var jkula = angular.module('jkula',
-            ['ngRoute','gnAnimate']);
+            ['ngRoute','ngAnimate']);
             jkula.config(config);
             jkula.directive('wrapper',container); 
             jkula.controller('HeaderCtrl',headerCtrl);
