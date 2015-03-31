@@ -11,12 +11,6 @@ define([],function(){
        hm.aboutme = function(){
           window.location.href ="#aboutme";  
        };
-       hm.myblog = function(){
-           window.location.href="#myblog";
-       };
-       hm.portfolio = function(){
-           window.location.href="#portfolio";
-       };
        return hm;
     };
     return homeCtrl;
