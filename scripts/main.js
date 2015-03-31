@@ -20,6 +20,8 @@
         "headerCtrl" : "../scripts/controllers/headerCtrl",
         //controllers
         "homeCtrl" : "../scripts/controllers/homeCtrl",
+        "myblogCtrl": "../scripts/controllers/myblogCtrl",
+        "portfolioCtrl": "../scripts/controllers/portfolioCtrl",
         "ModalObject" : "../scripts/controllers/ModalObject",
         "core" : "../scripts/controllers/core"
     },
@@ -56,6 +58,12 @@
         },
         "homeCtrl" : {
             deps : ['angular']
+        },
+        "myblogCtrl" : {
+            deps: ['angular']
+        },
+        "portfolioCtrl" : {
+            deps: ['angular']
         }
     }
      

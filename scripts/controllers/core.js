@@ -13,7 +13,6 @@ define([
            container,
            config,
            headerCtrl,
-           contactCtrl,
            homeCtrl){
              var jkula = angular.module('jkula',
             ['ngRoute','ui.bootstrap']);

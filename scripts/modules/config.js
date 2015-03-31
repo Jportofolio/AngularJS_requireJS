@@ -19,11 +19,15 @@ define([],
                 templateUrl: 'wpages/aboutme.html'
                 //controller: 'aboutMeCtrl'
             }).
-            when('/contact',{
-                templateUrl: 'wpages/contact.html',
-                controller:'contactCtrl',
-                controllerAs: 'c'
-            }).
+             when('/myblog',{
+                 templateUrl:'wpages/myblog.html',
+                 controller:'myblogCtrl',
+                 controllerAs:'blg'
+             }).
+              when('/portfolio',{
+                  templateUrl : 'wpages/porfolio.html',
+                  controller: 'porfolioCtrl'
+              }).
             otherwise({
                 redirectTo:'/home'
             }); 
