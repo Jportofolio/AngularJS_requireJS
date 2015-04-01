@@ -10,8 +10,8 @@ define([],function(){
         bt.gplus = function(){
             window.open("https://plus.google.com/106589448849905491636/about");
         };
-        bt.openrepo = function(){ 
-            window.open("https://github.com/Jportofolio");
+        bt.w3 = function(){ 
+            window.open("http://www.w3.org");
          }; 
         
         bt.linkedin = function(){

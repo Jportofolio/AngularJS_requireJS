@@ -103,15 +103,15 @@ and open the template in the editor.
                    <li><a href="wpages/contact.html">Contact</a></li>
                </ul> 
                </div>
-               <div id="lastblock">
+               <div id="lastblock" ng-controller="bottomCtrl as bt">
                <!-- Connect block -->
-               <div class="connect">
+               <div class="connect" >
                    <p>Connect <span> </span>></p>
                    <div class="subsmedia">
-                        <img src="../wImages/slinkedin.png"/>
-                         <img src="../wImages/sgplus.png"/>
-                         <img src="../wImages/sface.png"/>
-                         <img src="../wImages/stwitter.png"/>
+                       <img ng-click="bt.linkedin()" src="../wImages/slinkedin.png"/>
+                       <img ng-click="bt.gplus()" src="../wImages/sgplus.png"/>
+                       <img ng-click="bt.faceme()" src="../wImages/sface.png"/>
+                       <img ng-click="bt.twitt()" src="../wImages/stwitter.png"/>
                    </div>
                    <div class="rights">
                        &COPY; Josue Kula.com
@@ -119,7 +119,7 @@ and open the template in the editor.
                </div>
                <!-- WWW Consortium -->
                <div class="w3c">
-                   <img src="../techImage/sw3.png" />
+                   <img ng-click="bt.w3()" src="../techImage/sw3.png" />
                </div>
                <!-- contact me -->
                <div class="contact">
