@@ -391,6 +391,7 @@ footer #wrapper2{
 
 #wrapper2 .connect, .contact, .w3c{
     display: table-cell;
+    cursor:pointer;
     height: 178px;
     width: 310px;
 }
