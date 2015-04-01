@@ -26,7 +26,7 @@ define([],
           window.open("https://nodejs.org/");  
         };
         ft.apache = function(){
-          window.open("http://projects.apache.org/indexes/releases.html");  
+          window.open("http://projects.apache.org");  
         };
         return ft;
      };

@@ -79,8 +79,8 @@ and open the template in the editor.
                <!--- LEARN MORE --->
                <div class="learnmore">
                    <div class="techimg">
-                       <img alt="Lear more about HTML5" src="../techImage/shtml5.png" />
-                       <img ng-click="ft.jav()" alt="Learn more about Java" src="../techImage/sjava.png" />
+                    <img ng-click="ft.html()" alt="Lear more about HTML5" src="../techImage/shtml5.png" />
+                    <img ng-click="ft.jav()" alt="Learn more about Java" src="../techImage/sjava.png" />
                     <img ng-click="ft.mysql()" alt="Learn more about Mysql" src="../techImage/smysql.png" />
                     <img ng-click="ft.angulus()" alt="Learn more about Angularjs" src="../techImage/sangular.png" />
                     <img ng-click="ft.nod()" alt="Learn more about Nodejs" src="../techImage/snode.png" />
