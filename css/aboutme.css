@@ -54,7 +54,7 @@ and open the template in the editor.
 }
 
 #abtwrapper .jdescritp .righdecript p{
-    font-family: 'Shruti',sans-serif;
+    font-family: "Shruti",sans-serif;
     font-size: 17px;
     font-style: normal;
     font-weight: 300;
@@ -67,5 +67,5 @@ and open the template in the editor.
 }
 @font-face{
     font-family: Shruti;
-    src: url('Shruti.woff') format('woff');
+    src: url('Shruti.ttf') format('truetype');
 }
