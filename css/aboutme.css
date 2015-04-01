@@ -25,7 +25,7 @@ and open the template in the editor.
 
 }
 #abtwrapper .jdescritp {
-  margin: 0 auto;
+  margin:0px auto;
   width: 960px;
   display: block;
 } 
@@ -48,7 +48,7 @@ and open the template in the editor.
     margin-top: 0px;
     color: #29ABE2;
     font-family: 'Myriadpro', monospace;
-    font-size: 0.9em;
+    font-size: 14px;
 }
 #abtwrapper .jdescritp .righdecript {
   float: right;
