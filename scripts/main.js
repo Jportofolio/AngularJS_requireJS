@@ -22,6 +22,7 @@
         "myblogCtrl": "../scripts/controllers/myblogCtrl",
         "portfolioCtrl": "../scripts/controllers/portfolioCtrl",
         "footerCtrl" : "../scripts/controllers/footerCtrl",
+        "bottomCtrl": "../scripts/controllers/bottomCtrl",
         "core" : "../scripts/controllers/core"
     },
     shim    : {
@@ -62,6 +63,9 @@
         },
         "footerCtrl" : {
             deps: ['angular']
+        },
+        "bottomCtrl":{
+            deps : ['angular']
         }
     }
      
