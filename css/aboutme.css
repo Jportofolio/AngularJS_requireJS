@@ -54,9 +54,10 @@ and open the template in the editor.
 }
 
 #abtwrapper .jdescritp .righdecript p{
-    font-family:'Myriadpro',sans-serif;
+    font-family: 'Shruti',sans-serif;
     font-size: 17px;
     font-style: normal;
+    font-weight: 300;
     color: #808080;
 }
 
