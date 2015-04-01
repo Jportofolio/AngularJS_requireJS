@@ -9,14 +9,7 @@ and open the template in the editor.
 */
 /** This is Variables **/
 /*Mixing Goes here*/
-@font-face{
-    font-family: Myriadpro;
-    src: url('Myriadpro.woff') format('woff');
-}
-@font-face{
-    font-family: Shruti;
-    src: url('Shruti.woff') format('woff');
-}
+
 
 #abtwrapper {
   height: 350px;
@@ -61,10 +54,17 @@ and open the template in the editor.
 }
 
 #abtwrapper .jdescritp .righdecript p{
-    font-family: 'Shruti','Myriadpro',sans-serif;
+    font-family:'Myriadpro',sans-serif;
     font-size: 17px;
     font-style: normal;
-    font-weight: 400;
     color: #808080;
 }
 
+@font-face{
+    font-family: Myriadpro;
+    src: url('Myriadpro.woff') format('woff');
+}
+@font-face{
+    font-family: Shruti;
+    src: url('Shruti.woff') format('woff');
+}

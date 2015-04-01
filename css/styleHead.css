@@ -15,7 +15,7 @@ and open the template in the editor.
 }
 @font-face{
     font-family: centabel;
-    src: url('centabel.woff') format('woff');
+    src: url('centabel.ttf') format('truetype');
 }
 @font-face{
     font-family: vrinda;
