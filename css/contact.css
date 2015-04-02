@@ -244,6 +244,7 @@ textarea.ng-dirty.ng-valid{
              margin-right: 11px;}
 
 #contactnav .others{float:right; height: 40px; margin-top: 3px;}
+#contactnav .others img{ cursor:pointer;}
 
 @import "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css";
 @import "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css"
