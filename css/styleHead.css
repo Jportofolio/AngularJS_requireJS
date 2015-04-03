@@ -394,6 +394,7 @@ footer #wrapper2{
     height: 178px;
     width: 310px;
 }
+#wrapper2 .w3c > img {cursor:pointer;}
 #wrapper2 .connect{
     margin-right: 3px;
     text-align: center;
