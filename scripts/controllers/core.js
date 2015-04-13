@@ -9,7 +9,9 @@ define([
         'headerCtrl',
         'homeCtrl',
         'myblogCtrl',
-        'portfolioCtrl'],
+        'portfolioCtrl',
+        'footerCtrl',
+         'bottomCtrl'],
 
   function(
            container,
@@ -17,7 +19,9 @@ define([
            headerCtrl,
            homeCtrl,
            myblogCtrl,
-           portfolioCtrl){
+           portfolioCtrl,
+           footerCtrl,
+           bottomCtrl){
              var jkula = angular.module('jkula',
             ['ngRoute','ui.bootstrap']);
             jkula.config(config);
@@ -26,6 +30,8 @@ define([
             jkula.controller('homeCtrl',homeCtrl);
             jkula.controller('myblogCtrl',myblogCtrl);
             jkula.controller('portfolioCtrl',portfolioCtrl);
+            jkula.controller('footerCtrl',footerCtrl);
+            jkula.controller('bottomCtrl',bottomCtrl);
             jkula.controller('aboutMeCtrl',function(){
                      var abt = this;
                     abt.hist ='hist';

@@ -9,20 +9,7 @@ and open the template in the editor.
 */
 /** This is Variables **/
 /*Mixing Goes here*/
-@font-face{
-    font-family: Myriadpro;
-    src: url('Myriadpro.woff') format('woff');
-}
-@font-face{
-    font-family: Shruti;
-    src: url('Shruti.woff') format('woff');
-}
 
-.desciptHeight {
-  height: 400px;
-  width: 490px;
-
-}
 
 #abtwrapper {
   height: 350px;
@@ -31,9 +18,11 @@ and open the template in the editor.
 
 }
 #abtwrapper .jdescritp {
-  margin: 0 auto;
+  margin:0px auto;
   width: 960px;
   display: block;
+  height: 300px;
+  margin-top:13px;
 } 
 #abtwrapper .jdescritp .leftdescript {
   float: left;
@@ -54,23 +43,30 @@ and open the template in the editor.
     margin-top: 0px;
     color: #29ABE2;
     font-family: 'Myriadpro', monospace;
-    font-size: 0.9em;
+    font-size: 14px;
 }
 #abtwrapper .jdescritp .righdecript {
   float: right;
   height: 310px;
   width: 750px;
-  border-left: 4px solid #808080;
   padding-left: 17px; padding-right: 6px;
   padding-top: 17px;
   
 }
 
 #abtwrapper .jdescritp .righdecript p{
-    font-family: 'Shruti',Arial;
+    font-family: "Shruti",sans-serif;
     font-size: 17px;
     font-style: normal;
-    font-weight: 400;
-    color: #808080;
+    font-weight: 300;
+    color: #999999;
 }
 
+@font-face{
+    font-family: Myriadpro;
+    src: url('Myriadpro.woff') format('woff');
+}
+@font-face{
+    font-family: Shruti;
+    src: url('Shruti.woff') format('woff');
+}

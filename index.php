@@ -73,18 +73,18 @@ and open the template in the editor.
     </wrapper>
     
      <!-- This is the TECHNOLOGY -->
-       <div id="Learntech">
+     <div id="Learntech" ng-controller="footerCtrl as ft">
            <div class="yeswecan">Learn More</div>
            <div id="techwrapper">
                <!--- LEARN MORE --->
                <div class="learnmore">
                    <div class="techimg">
-                       <img alt="Lear more about HTML5" src="../techImage/shtml5.png" />
-                    <img alt="Learn more about Java" src="../techImage/sjava.png" />
-                    <img alt="Learn more about Mysql" src="../techImage/smysql.png" />
-                    <img alt="Learn more about Angularjs" src="../techImage/sangular.png" />
-                    <img alt="Learn more about Nodejs" src="../techImage/snode.png" />
-                    <img alt="Learn more about Apache Server" src="../techImage/sapache.png" />
+                    <img ng-click="ft.html()" alt="Lear more about HTML5" src="../techImage/shtml5.png" />
+                    <img ng-click="ft.jav()" alt="Learn more about Java" src="../techImage/sjava.png" />
+                    <img ng-click="ft.mysql()" alt="Learn more about Mysql" src="../techImage/smysql.png" />
+                    <img ng-click="ft.angulus()" alt="Learn more about Angularjs" src="../techImage/sangular.png" />
+                    <img ng-click="ft.nod()" alt="Learn more about Nodejs" src="../techImage/snode.png" />
+                    <img ng-click="ft.apache()" alt="Learn more about Apache Server" src="../techImage/sapache.png" />
                   </div>
                    
                </div>
@@ -103,23 +103,23 @@ and open the template in the editor.
                    <li><a href="wpages/contact.html">Contact</a></li>
                </ul> 
                </div>
-               <div id="lastblock">
+               <div id="lastblock" ng-controller="bottomCtrl as bt">
                <!-- Connect block -->
-               <div class="connect">
+               <div class="connect" >
                    <p>Connect <span> </span>></p>
                    <div class="subsmedia">
-                        <img src="../wImages/slinkedin.png"/>
-                         <img src="../wImages/sgplus.png"/>
-                         <img src="../wImages/sface.png"/>
-                         <img src="../wImages/stwitter.png"/>
+                       <img ng-click="bt.linkedin()" src="../wImages/slinkedin.png"/>
+                       <img ng-click="bt.gplus()" src="../wImages/sgplus.png"/>
+                       <img ng-click="bt.faceme()" src="../wImages/sface.png"/>
+                       <img ng-click="bt.twitt()" src="../wImages/stwitter.png"/>
                    </div>
                    <div class="rights">
-                       &COPY; Josue Kula.N
+                       &COPY; Josue Kula.com
                    </div>
                </div>
                <!-- WWW Consortium -->
                <div class="w3c">
-                   <img src="../techImage/sw3.png" />
+                   <img ng-click="bt.w3()" src="../techImage/sw3.png" />
                </div>
                <!-- contact me -->
                <div class="contact">
