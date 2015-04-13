@@ -13,6 +13,7 @@
         "jquery" : "../scripts/jquery/jquery",
         "angular" : "../scripts/angular/angular", 
         "bootstrap" : "../scripts/bootstrap/ui-bootstrap-tpls-0.12.1",
+        "angular-animate" : "../scripts/angular/angular-animate",
         "angularoute" : "../scripts/angular/angular-route",
         "container" : "../scripts/modules/container",
         "config"       : "../scripts/modules/config",
@@ -21,8 +22,7 @@
         "homeCtrl" : "../scripts/controllers/homeCtrl",
         "myblogCtrl": "../scripts/controllers/myblogCtrl",
         "portfolioCtrl": "../scripts/controllers/portfolioCtrl",
-        "footerCtrl" : "../scripts/controllers/footerCtrl",
-        "bottomCtrl": "../scripts/controllers/bottomCtrl",
+        "ModalObject" : "../scripts/controllers/ModalObject",
         "core" : "../scripts/controllers/core"
     },
     shim    : {
@@ -47,7 +47,7 @@
             deps : ['angular','angularoute']
         },
         "core" : {
-           deps : ['angular','angularoute','bootstrap'] 
+           deps : ['angular','angular-animate','bootstrap'] 
         },
         "headerCtrl" : {
             deps : ['angular']
@@ -60,12 +60,6 @@
         },
         "portfolioCtrl" : {
             deps: ['angular']
-        },
-        "footerCtrl" : {
-            deps: ['angular']
-        },
-        "bottomCtrl":{
-            deps : ['angular']
         }
     }
      

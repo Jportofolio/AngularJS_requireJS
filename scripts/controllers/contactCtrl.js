@@ -10,24 +10,6 @@ angular.module('jkula',[])
         .run(function($rootScope){
                 $rootScope.endPoint = 'http://jkula.azurewebsites.net';
             })
-        .controller('header',function(){
-            var bt = this;
-        bt.gplus = function(){
-            window.open("https://plus.google.com/106589448849905491636/about");
-        };
-        bt.linkedin = function(){
-            window.open("https://www.linkedin.com/pub/josue-kula/99/8b5/2");
-         };
-        
-        bt.faceme = function(){
-          window.open("https://www.facebook.com/kool.max1");  
-        };
-        
-        bt.twitt = function(){
-            window.open("https://twitter.com/j_kuler");
-        };
-        return bt;    
-        })
         .controller('contactCtrl',['$scope','$q','$http','$rootScope',
            function($scope,$q,$http,$rootScope){
               this.status = 'submit';
