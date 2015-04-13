@@ -71,7 +71,7 @@
      
  });
  
- require(["angular","core"],function(angular){
+ require(['core'],function(){
     angular.bootstrap(document, ['jkula']); 
  });
  
