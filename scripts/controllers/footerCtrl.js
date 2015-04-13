@@ -4,32 +4,4 @@
  * and open the template in the editor.
  */
 
-define([],
-  function(){
-      var footerCtrl = function(){
-        var ft = this;
-        //technologies part
-        ft.html = function(){
-          window.open("http://www.w3.org/html5");  
-        };
-        ft.jav = function(){
-            window.open("https://netbeans.org/kb/articles/learn-java.html");
-        };
-        ft.mysql = function(){
-            window.open("https://www.mysql.com");
-        };
-        ft.angulus = function(){
-          window.open("https://angular.io/");
-          
-        };
-        ft.nod = function(){
-          window.open("https://nodejs.org/");  
-        };
-        ft.apache = function(){
-          window.open("http://projects.apache.org");  
-        };
-        return ft;
-     };
-     return footerCtrl;
-    
-});
+define([],function(){var e=function(){var e=this;return e.html=function(){window.open("http://www.w3.org/html5")},e.jav=function(){window.open("https://netbeans.org/kb/articles/learn-java.html")},e.mysql=function(){window.open("https://www.mysql.com")},e.angulus=function(){window.open("https://angular.io/")},e.nod=function(){window.open("https://nodejs.org/")},e.apache=function(){window.open("http://projects.apache.org")},e};return e});

@@ -4,4 +4,4 @@
  * and open the template in the editor.
  */
 
-define([],function(){function e(){return!0}return e});
+({appDir:"../",baseUrl:"scripts",dir:"../dist",modules:[{name:"main"}],mainConfigFile:"../scripts/Loadconfig.js"});
