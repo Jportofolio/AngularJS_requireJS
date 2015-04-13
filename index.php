@@ -10,6 +10,7 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
         <script type="text/javascript" data-main="scripts/main.js" src="scripts/require.js"></script>
+        <script src="scripts/Loadconfig.js" type="text/javascript"></script>
          <link rel="stylesheet" href="../css/styleHead.css"/>
          <link href="css/aboutme.css" rel="stylesheet" type="text/css"/>
          <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Josefin+Slab" />
