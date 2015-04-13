@@ -5,8 +5,8 @@
  */
 
  require.config({
-    //appDir : '../',
-    //baseUrl : 'scripts',
+    appDir : '../',
+    baseUrl : 'scripts',
     
     //Defining paths
     paths  : {
