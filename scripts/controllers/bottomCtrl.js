@@ -4,28 +4,4 @@
  * and open the template in the editor.
  */
 
-define([],function(){
-   var bottomCtrl = function(){
-       var bt = this;
-        bt.gplus = function(){
-            window.open("https://plus.google.com/106589448849905491636/about");
-        };
-        bt.w3 = function(){ 
-            window.open("http://www.w3.org");
-         }; 
-        
-        bt.linkedin = function(){
-            window.open("https://www.linkedin.com/pub/josue-kula/99/8b5/2");
-         };
-        
-        bt.faceme = function(){
-          window.open("https://www.facebook.com/kool.max1");  
-        };
-        
-        bt.twitt = function(){
-            window.open("https://twitter.com/j_kuler");
-        };
-       return bt;
-   };
-    return bottomCtrl;
-});
+define([],function(){var e=function(){var e=this;return e.gplus=function(){window.open("https://plus.google.com/106589448849905491636/about")},e.w3=function(){window.open("http://www.w3.org")},e.linkedin=function(){window.open("https://www.linkedin.com/pub/josue-kula/99/8b5/2")},e.faceme=function(){window.open("https://www.facebook.com/kool.max1")},e.twitt=function(){window.open("https://twitter.com/j_kuler")},e};return e});

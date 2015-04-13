@@ -4,20 +4,4 @@
  * and open the template in the editor.
  */
 
-
-define([],function(){
-    return function(){
-        //wrapper = {};
-        return {
-            scope: {},
-            restrict:'E',
-            link:function(s,e,a){
-               //angular.element(e).fadeIn(300);
-               
-            },
-            replace: true,
-            template:'<div ng-view="" id="bicong"> Loading...</div>'
-        };
-    };
- 
-});
+define([],function(){return function(){return{scope:{},restrict:"E",link:function(e,t,n){},replace:!0,template:'<div ng-view="" id="bicong"> Loading...</div>'}}});
