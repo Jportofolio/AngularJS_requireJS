@@ -4,4 +4,19 @@
  * and open the template in the editor.
  */
 
-define([],function(){function e(){}return e});
+   define([],function(){
+    
+        function MessageHttp(){
+          
+        }
+       return MessageHttp;
+              
+}); 
+       
+
+
+  
+    
+
+     
+

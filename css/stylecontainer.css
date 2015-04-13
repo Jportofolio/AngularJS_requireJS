@@ -19,6 +19,12 @@ and open the template in the editor.
     src: url('Nirmalas.woff') format('woff');
    // src: local(Nirmalas),url("../fonts/Nirmalas.woff");
 }
+
+/* 
+    Created on : Feb 5, 2015, 2:32:06 PM
+    Author     : J_kula
+*/
+/* This is the  1st Fist Conainer*/
 body{ 
   
      width: 100%;
@@ -28,16 +34,19 @@ body{
  Article{
   background-color:#29ABE2;
   padding: 0; margin: 0;
+
   }
 #wrapper{
     width:100%;
     height: 340px;
  
 }
+
 #container{
     width: 960px;
     height: 340px;
     margin: 0px auto; 
+
      
 }
 #container .state, .devbox{
@@ -82,6 +91,7 @@ body{
     
    
 }
+/* This is the MIDDLE LINE FOR TRENDING LINK*/
 #middle{ width:100%; margin: 0; padding: 0;
          height:40px;
          background-color: #2E2D3F;
@@ -90,6 +100,7 @@ body{
                    width: 240px; display: block;
                    line-height: 38px; vertical-align: middle;
                    }
+
 #middle ul{padding: 0; width: 400px; margin: 0; position: relative;}
 #middle ul li {
               font-family: 'centabel',arial;
@@ -102,6 +113,9 @@ body{
                 margin-top:1px; }
 #middle ul li a { text-decoration: none; display: block; margin-left: 8px;
                  color: green; width: 230px; float: right;}
+
+/*This is the Great Container*/
+
 #wrapper1{ width: 100%; 
            height: 300px; 
            background-color: white;}
@@ -135,6 +149,9 @@ body{
 #branch .Myblog p a:hover, 
 .portfolio p a:hover, 
 .aboutme p a:hover{color: #29ABE2;}
+/* ---- THE END OF MIDDLE and GREAT CONTAINER -----------*/
+/* This is the Learn More on these Technologies*/
+
 #Learntech{
     width:100%;
     height:174px;
@@ -152,6 +169,7 @@ body{
     width: auto;
    
 }
+
 #techwrapper .learnmore p{
             position: relative; width:auto; 
             background-color: #2E2D3F;
@@ -164,6 +182,7 @@ body{
     width:960px; display:block;
 }
 #techwrapper .learnmore > .techimg img{cursor:pointer;}
+/* This is the Footer */
 footer{
     width:100%; background-color:white;
     height: 255px;
@@ -196,10 +215,12 @@ footer #wrapper2{
                font-size: 14px;
                line-height: 34px;
                }
+/* TREE BOTTOM BLOCK --- Go here */
 #wrapper2 #lastblock{
     width: 960px; clear: both;
     height:178px; margin:0px auto;
 }
+
 #wrapper2 .connect, .contact, .w3c{
     display: table-cell;
     height: 178px;
@@ -243,6 +264,7 @@ footer #wrapper2{
   vertical-align: bottom;
   padding-left: 30px;
 }
+
 #wrapper2 .contact .mnom, .place , .semail{
     line-height: 45px;
     width:300px;

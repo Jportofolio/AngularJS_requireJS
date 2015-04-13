@@ -4,4 +4,39 @@
  * and open the template in the editor.
  */
 
-define([],function(){function e(e){e.when("/home",{templateUrl:"wpages/entree.html",controller:"homeCtrl"}).when("/aboutme",{templateUrl:"wpages/aboutme.html"}).when("/myblog",{templateUrl:"wpages/myblog.html",controller:"myblogCtrl",controllerAs:"blg"}).when("/portfolio",{templateUrl:"wpages/portfolio.html",controller:"portfolioCtrl"}).otherwise({redirectTo:"/home"})}return["$routeProvider",e]});
+
+define([],
+      function(){
+    
+         //Defining the execRouter
+         function config($routeProvider){
+             $routeProvider.
+            when('/home',{
+                templateUrl:'wpages/entree.html',
+                controller:'homeCtrl'
+           }).
+            when('/aboutme',{
+                templateUrl: 'wpages/aboutme.html'
+                //controller: 'aboutMeCtrl'
+            }).
+             when('/myblog',{
+                 templateUrl:'wpages/myblog.html',
+                 controller:'myblogCtrl',
+                 controllerAs:'blg'
+             }).
+              when('/portfolio',{
+                  templateUrl : 'wpages/portfolio.html',
+                  controller: 'portfolioCtrl'
+              }).
+            otherwise({
+                redirectTo:'/home'
+            }); 
+           
+                    
+         }
+         //contact Me Controller
+        //Injecting $routerProvide into execRouter
+        
+         return ['$routeProvider',config];
+       
+});

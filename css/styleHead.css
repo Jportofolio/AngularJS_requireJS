@@ -3,13 +3,19 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
+/* 
+    Created on : Feb 4, 2015, 1:44:15 PM
+    Author     : J_kula
+*/
+
+
 @font-face{
     font-family: Myriadpro;
     src: url('Myriadpro.woff') format('woff');
 }
 @font-face{
     font-family: centabel;
-    src: url('centabel.ttf') format('truetype');
+    src: url('centabel.woff') format('woff');
 }
 @font-face{
     font-family: vrinda;
@@ -19,10 +25,14 @@ and open the template in the editor.
     font-family: Nirmalas;
     src: url('Nirmalas.woff') format('woff');
 }
+
+
 *{
     padding: 0;
     margin: 0;
 }
+
+
 html,body{
     padding:0;
     margin: 0;
@@ -61,6 +71,8 @@ html,body{
              line-height: 40px; 
              margin-top: 6px;
              margin-right: 11px;}
+/* Style sheet for the header*/
+
 header{display:block; 
       
     width:100%; background-color:#2E2D3F;
@@ -70,6 +82,7 @@ header{display:block;
     height: 40px;
     background-color: #333333;
  }
+
 #smHeader .socialm{
     margin:0px auto;
    text-align: right;
@@ -87,6 +100,7 @@ header{display:block;
 }
 #smHeader .socialm .github p{ font-family: courier new;}
 #smHeader .socialm .github img{ float: left; margin-right: 20px; cursor: pointer;}
+
 #smHeader .socialm .others{ 
         width: 470px; 
         display: inline; 
@@ -100,6 +114,7 @@ header #squareback{
     width:100%; 
    
 }
+
 #squareback .mdetails{
     width: 960px;
     height:209px;
@@ -151,6 +166,7 @@ header #squareback{
     font-family: 'Myriadpro',vernada;
     font-size: 15px;
 }
+/*this is the style for Loader*/
 #Loader{
     width:100%;
     height:400px;
@@ -166,7 +182,11 @@ header #squareback{
     width:139px;
     height:139px;
 }
+/*End of the Loader*/
+
  #cWrapper { height: 100%; margin: 0;  padding: 0;}
+/* this is the style for container*/
+
 /*
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
@@ -176,16 +196,19 @@ and open the template in the editor.
  Article{
   background-color:#29ABE2;
   padding: 0; margin: 0;
+
   }
 #wrapper{
     width:100%;
     height: 340px;
  
 }
+
 #container{
     width: 960px;
     height: 340px;
     margin: 0px auto; 
+
      
 }
 #container .state, .devbox{
@@ -230,6 +253,7 @@ and open the template in the editor.
     
    
 }
+/* This is the MIDDLE LINE FOR TRENDING LINK*/
 #middle{ width:100%; margin: 0; padding: 0;
          height:40px;
          background-color: #2E2D3F;
@@ -241,6 +265,7 @@ and open the template in the editor.
                    font-size: 14px;
                    vertical-align: middle;
                    }
+
 #middle .trending ul{padding: 0; width: 500px; margin: 0; position: relative;}
 #middle .trending ul li {
               list-style: none;
@@ -253,6 +278,9 @@ and open the template in the editor.
 #middle .trending ul li a { text-decoration: none;
                             color: #66cc00;
                 }
+
+/*This is the Great Container*/
+
 #wrapper1{ width: 100%; 
            height: 300px; 
            background-color: white;}
@@ -289,6 +317,9 @@ and open the template in the editor.
 #branch .Myblog p a:hover, 
 .portfolio p a:hover, 
 .aboutme p a:hover{color: #29ABE2;}
+/* ---- THE END OF MIDDLE and GREAT CONTAINER -----------*/
+/* This is the Learn More on these Technologies*/
+
 #Learntech{
     width:100%;
     height:174px;
@@ -306,6 +337,7 @@ and open the template in the editor.
     width: auto;
    
 }
+
 #techwrapper .learnmore p{
             position: relative; width:auto; 
             background-color: #2E2D3F;
@@ -318,6 +350,7 @@ and open the template in the editor.
     width:960px; display:block;
 }
 #techwrapper .learnmore > .techimg img{cursor:pointer;}
+/* This is the Footer */
 footer{
     width:100%; background-color:white;
     height: 255px; display: block;
@@ -350,16 +383,17 @@ footer #wrapper2{
                font-size: 14px;
                line-height: 34px;
                }
+/* TREE BOTTOM BLOCK --- Go here */
 #wrapper2 #lastblock{
     width: 960px; clear: both;
     height:178px; margin:0px auto;
 }
+
 #wrapper2 .connect, .contact, .w3c{
     display: table-cell;
     height: 178px;
     width: 310px;
 }
-#wrapper2 .w3c > img {cursor:pointer;}
 #wrapper2 .connect{
     margin-right: 3px;
     text-align: center;
@@ -398,6 +432,7 @@ footer #wrapper2{
   vertical-align: bottom;
   padding-left: 30px;
 }
+
 #wrapper2 .contact .mnom, .place , .semail{
     line-height: 45px;
     width:300px;
@@ -435,6 +470,10 @@ footer #wrapper2{
           font-family: 'Courier new',Arial;
           font-size:12px;
 }
+/*this is Style for Contact Page
+====  This style should remain untouched ==
+*/
+
 #cheader{
     z-index: 30;
     background-color: #2E2D3F;
