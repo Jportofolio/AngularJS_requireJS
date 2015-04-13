@@ -5,25 +5,25 @@
  */
 
  require.config({
-    appDir : '',
-    //baseUrl : './scripts',
+    //appDir : '../',
+    //baseUrl : 'scripts',
     
     //Defining paths
     paths  : {
-        "jquery" : "../scripts/jquery/jquery",
-        "angular" : "../scripts/angular/angular", 
-        "bootstrap" : "../scripts/bootstrap/ui-bootstrap-tpls-0.12.1",
-        "angularoute" : "../scripts/angular/angular-route",
-        "container" : "../scripts/modules/container",
-        "config"       : "../scripts/modules/config",
-        "headerCtrl" : "../scripts/controllers/headerCtrl",
+        "jquery" : "jquery/jquery",
+        "angular" : "angular/angular", 
+        "bootstrap" : "bootstrap/ui-bootstrap-tpls-0.12.1",
+        "angularoute" : "angular/angular-route",
+        "container" : "modules/container",
+        "config"       : "modules/config",
+        "headerCtrl" : "controllers/headerCtrl",
         //controllers
-        "homeCtrl" : "../scripts/controllers/homeCtrl",
-        "myblogCtrl": "../scripts/controllers/myblogCtrl",
-        "portfolioCtrl": "../scripts/controllers/portfolioCtrl",
-        "footerCtrl" : "../scripts/controllers/footerCtrl",
-        "bottomCtrl": "../scripts/controllers/bottomCtrl",
-        "core" : "../scripts/controllers/core"
+        "homeCtrl" : "controllers/homeCtrl",
+        "myblogCtrl": "controllers/myblogCtrl",
+        "portfolioCtrl": "controllers/portfolioCtrl",
+        "footerCtrl" : "controllers/footerCtrl",
+        "bottomCtrl": "controllers/bottomCtrl",
+        "core" : "controllers/core"
     },
     shim    : {
         //angular dependency
