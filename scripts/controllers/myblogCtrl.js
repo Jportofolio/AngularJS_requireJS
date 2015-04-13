@@ -3,5 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+define([],function(){
+    function myblogCtrl(){
+        return true;
+    } 
+    return myblogCtrl;
+});
 
-define([],function(){function e(){return!0}return e});

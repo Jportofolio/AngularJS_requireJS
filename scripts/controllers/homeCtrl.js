@@ -4,7 +4,6 @@
  * and open the template in the editor.
  */
 
-<<<<<<< HEAD
 define([],function(){
     var homeCtrl = function(){
        var hm = this;
@@ -16,6 +15,3 @@ define([],function(){
     };
     return homeCtrl;
 });
-=======
-define([],function(){var e=function(){var e=this;return e.aboutme=function(){window.location.href="#aboutme"},e.myblog=function(){window.location.href="#myblog"},e.portfolio=function(){window.location.href="#portfolio"},e};return e});
->>>>>>> 4c3c352791d56ab124ec2e67e2d40e303cfb1425

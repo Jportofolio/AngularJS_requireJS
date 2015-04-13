@@ -4,4 +4,9 @@
  * and open the template in the editor.
  */
 
-define([],function(){function e(){return!0}return e});
+define([],function(){
+    function portfolioCtrl(){
+        return true;
+    } 
+    return portfolioCtrl;
+});

@@ -4,4 +4,11 @@
  * and open the template in the editor.
  */
 
-define([],function(){function e(e){e.items="this "}return["$scope",e]});
+define([],function(){
+    
+    function ModalObject($scope){
+       $scope.items = 'this ';
+       
+    };
+    return ['$scope',ModalObject];
+});
