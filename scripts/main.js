@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
  
- require(["angular","core"],function(){
+ require(["core"],function(){
     angular.bootstrap(document, ['jkula']); 
  });
  
