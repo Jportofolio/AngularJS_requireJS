@@ -1,21 +1,13 @@
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
- require.config({
-   // appDir : '.',
-    //baseUrl : './scripts',
-    
-    //Defining paths
-    paths  : {
+({
+  
+     paths  : {
         "jquery" : "../scripts/jquery/jquery",
         "angular" : "../scripts/angular/angular", 
         "angularoute" : "../scripts/angular/angularoute",
         "container" : "../scripts/modules/container",
         "config"       : "../scripts/modules/config",
         "headerCtrl" : "../scripts/controllers/headerCtrl",
+        //controllers
         "homeCtrl" : "../scripts/controllers/homeCtrl",
         "myblogCtrl": "../scripts/controllers/myblogCtrl",
         "portfolioCtrl": "../scripts/controllers/portfolioCtrl",
@@ -23,14 +15,26 @@
         "bottomCtrl": "../scripts/controllers/bottomCtrl",
         "core" : "../scripts/controllers/core"
     },
-      shim    : {
-   
+    shim    : {
+        //angular dependenc
         "core" : {
            deps : ['angular','angularoute'],
            exports: "core"
-        }
-    }    
-     
- });
- require(['core']);
- 
+        },
+        "headerCtrl" : {
+            deps : ['angular'],
+            exports: "headerCtrl"
+            }
+        },
+  baseUrl: '../scripts',
+  mainConfigFile: '../scripts/main.js',
+  name: '../scripts/main',
+  out: '../scripts/dist/main.js',
+  removeCombined: true
+
+})
+
+
+
+
+

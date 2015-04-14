@@ -3,7 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-define([
+
+ (function(angular,define){
+     
+     define([
         'container',
         'config',
         'headerCtrl',
@@ -22,8 +25,8 @@ define([
            portfolioCtrl,
            footerCtrl,
            bottomCtrl){
-             var jkula = angular.module('jkula',
-            ['ngRoute','ui.bootstrap']);
+         var jkula = angular.module('jkula',
+            ['ngRoute']);
             jkula.config(config);
             jkula.directive('wrapper',container); 
             jkula.controller('HeaderCtrl',headerCtrl);
@@ -40,9 +43,13 @@ define([
             jkula.run(function($rootScope){
                 $rootScope.endPoint = 'http://jkula';
             });
-                   
-                      
+          angular.bootstrap(document, ['jkula']);       
+           return jkula;           
             
 });
+
+ }(angular,define));   
+    
+
         
 
