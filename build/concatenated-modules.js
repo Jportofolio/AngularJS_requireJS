@@ -30,7 +30,8 @@
   mainConfigFile: '../scripts/main.js',
   name: '../scripts/main',
   out: '../scripts/dist/main.js',
-  removeCombined: true
+  removeCombined: true,
+  findNestedDependencies: true
 
 })
 
