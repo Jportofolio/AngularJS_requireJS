@@ -6,5 +6,9 @@
  * and open the template in the editor.
  */
 
-$data = file_get_contents("http://jkula/cgi-pages/contactme.php");
-error_log(json_decode($data));
+class rxess{
+    
+    public function __construct() {
+        ;
+    }
+}
