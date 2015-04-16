@@ -41,7 +41,7 @@
                  });
             
             jkula.run(function($rootScope){
-                $rootScope.endPoint = 'http://jkula';
+                $rootScope.endPoint = 'http://www.josuekula.com';
             });
           angular.bootstrap(document, ['jkula']);       
            return jkula;           

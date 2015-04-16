@@ -8,7 +8,7 @@
      
 angular.module('jkula',[])
         .run(function($rootScope){
-                $rootScope.endPoint = 'http://jkula.azurewebsites.net';
+                $rootScope.endPoint = 'http://www.josuekula.com';
             })
         .controller('header',function(){
             var bt = this;
