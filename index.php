@@ -12,6 +12,7 @@ and open the template in the editor.
         <script type="text/javascript" data-main="scripts/scripts/main.js" src="scripts/scripts/require.js"></script>
          <link rel="stylesheet" href="../css/styleHead.css"/>
          <link href="css/aboutme.css" rel="stylesheet" type="text/css"/>
+         <link rel="shortcut icon" href="wImages/sitelog.png" />
          <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Josefin+Slab" />
     </head>
     <body style="margin: 0; padding: 0;"> 
