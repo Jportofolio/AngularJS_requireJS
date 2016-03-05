@@ -186,7 +186,6 @@ body{
 footer{
     width:100%; background-color:white;
     height: 255px;
-    border-bottom: 2px solid #666666;
 }
 footer #wrapper2{
     margin:0px auto; 
