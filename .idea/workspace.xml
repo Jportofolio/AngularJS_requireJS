@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a2d87872-ff96-4693-8f3e-8e390dc4f52f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wpages/entree.html" afterPath="$PROJECT_DIR$/wpages/entree.html" />
     </list>
     <ignored path="AngularJS_requireJS.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -73,8 +74,8 @@
       <file leaf-file-name="entree.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wpages/entree.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.38215488">
-              <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.34680134">
+              <caret line="23" column="112" selection-start-line="23" selection-start-column="112" selection-end-line="23" selection-end-column="112" />
               <folding />
             </state>
           </provider>
@@ -657,8 +658,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wpages/entree.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38215488">
-          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.34680134">
+          <caret line="23" column="112" selection-start-line="23" selection-start-column="112" selection-end-line="23" selection-end-column="112" />
           <folding />
         </state>
       </provider>
