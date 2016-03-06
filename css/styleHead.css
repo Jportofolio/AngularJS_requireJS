@@ -481,3 +481,35 @@ footer #wrapper2{
     width: 100%;
     height: 48px;
 }
+
+#Myblog{
+    width:100%;
+    height:400px;
+}
+#Myblog .blogWrapper{
+    margin:0px auto;
+    height: inherit;
+    width: 960px;
+    border:1px solid #ffffff;
+}
+#Myblog .blogWrapper .centergraph{
+    margin:100px auto;
+    width:500px;
+    height:100px;
+}
+#Myblog .blogWrapper .centergraph table{
+    border-collapse: collapse;
+    margin-top:10px;
+
+}
+.centergraph table tr td.blogimg{
+    width: 120px;
+    padding-right: 8px;
+    border-right:4px solid #29ABE2;
+}
+.centergraph table tr td.descript{
+    padding-left:9px;
+    font-family:'Arial',sans-serif;
+    font-size: 15px;
+    color: #808080;
+}
