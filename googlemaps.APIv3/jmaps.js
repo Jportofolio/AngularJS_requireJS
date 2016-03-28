@@ -7,7 +7,7 @@
     function initialize() {
           var jmarker;
           var jaddress = new google.maps.LatLng(30.19835,-97.78923);
-          var brtnolf = new google.maps.LatLng(30.23157,-97.73350);
+          var brtnolf = new google.maps.LatLng(30.369913,-98.222579);
           //map cordinates
           //var mapcord = { lat: 30.23384, lng: -97.73093};
          //mapStyle Array
