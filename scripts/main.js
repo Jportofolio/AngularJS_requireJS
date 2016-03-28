@@ -13,6 +13,7 @@
         "jquery" : "../scripts/jquery/jquery",
         "angular" : "../scripts/angular/angular", 
         "angularoute" : "../scripts/angular/angularoute",
+        "angular-animate":"../scripts/angular/angular-animate.min",
         "container" : "../scripts/modules/container",
         "config"       : "../scripts/modules/config",
         "headerCtrl" : "../scripts/controllers/headerCtrl",
@@ -26,7 +27,7 @@
       shim    : {
    
         "core" : {
-           deps : ['angular','angularoute'],
+           deps : ['angular','angularoute','angular-animate.min'],
            exports: "core"
         }
     }    

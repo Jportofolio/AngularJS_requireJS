@@ -26,7 +26,7 @@
            footerCtrl,
            bottomCtrl){
          var jkula = angular.module('jkula',
-            ['ngRoute']);
+            ['ngRoute','ngAnimate']);
             jkula.config(config);
             jkula.directive('wrapper',container); 
             jkula.controller('HeaderCtrl',headerCtrl);
