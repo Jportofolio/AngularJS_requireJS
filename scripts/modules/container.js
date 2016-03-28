@@ -12,7 +12,7 @@ define([],function(){
             scope: {},
             restrict:'E',
             link:function(s,e,a){
-               e[0].fadeIn(300);
+               //angular.element(e).fadeIn(300);
                
             },
             replace: true,
