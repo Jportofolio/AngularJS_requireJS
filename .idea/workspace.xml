@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2d87872-ff96-4693-8f3e-8e390dc4f52f" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styleHead.css" afterPath="$PROJECT_DIR$/css/styleHead.css" />
     </list>
     <ignored path="AngularJS_requireJS.iws" />
@@ -777,8 +778,8 @@
       <file leaf-file-name="styleHead.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/styleHead.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9165186">
-              <caret line="188" column="20" selection-start-line="188" selection-start-column="20" selection-end-line="188" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.76731795">
+              <caret line="184" column="7" selection-start-line="184" selection-start-column="7" selection-end-line="184" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -2177,8 +2178,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/styleHead.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9165186">
-          <caret line="188" column="20" selection-start-line="188" selection-start-column="20" selection-end-line="188" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.76731795">
+          <caret line="184" column="7" selection-start-line="184" selection-start-column="7" selection-end-line="184" selection-end-column="7" />
           <folding />
         </state>
       </provider>

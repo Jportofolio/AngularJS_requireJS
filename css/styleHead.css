@@ -175,14 +175,14 @@ header #squareback{
     transition:0.5s linear all;
     opacity:0;
 }
-#loader .ng-enter .ng-enter-active {
+#loader.ng-enter.ng-enter-active {
     opacity:1;
 }
-#loader .ng-leave {
+#loader.ng-leave {
     transition:0.5s linear all;
     opacity:1;
 }
-#loader .ng-leave.ng-leave-active{
+#loader.ng-leave.ng-leave-active{
     opacity:0;
 }
 #Loader .LoaderWrapper{
