@@ -47,7 +47,7 @@
        jmarker = new google.maps.Marker({
            map:map,
            draggable: false,
-           title: 'I am here',
+           title: 'New address..',
            animation: google.maps.Animation.DROP,
            position: jaddress,
            icon : image
