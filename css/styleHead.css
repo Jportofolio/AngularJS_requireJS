@@ -217,7 +217,12 @@ and open the template in the editor.
     height: 340px;
  
 }
-
+#wrapper.ng-enter {
+    transition:0.5s linear all;
+    opacity:0; }
+#wrapper.ng-enter-active{
+    opacity: 1;
+}
 #container{
     width: 960px;
     height: 340px;
